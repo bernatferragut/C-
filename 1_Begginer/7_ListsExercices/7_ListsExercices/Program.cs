@@ -6,7 +6,7 @@ namespace _ListsExercices
 	{
 		public static void Main(string[] args)
 		{
-			Exercice1();
+			Exercice2();
 		}
 
 		//1- When you post a message on Facebook, depending on the number of people who like 

@@ -7,7 +7,8 @@ namespace _ListsExercices
 	{
 		public static void Main(string[] args)
 		{
-			Exercice1();
+			//Exercice1();
+			Exercice2();
 		}
 
 		//1- When you post a message on Facebook, depending on the number of people who like 
@@ -69,7 +70,15 @@ namespace _ListsExercices
 
 		public static void Exercice2()
 		{
+			Console.Write("What's your name? ");
+			var name = Console.ReadLine();
 
+			var array = new char[name.Length];
+			for (var i = name.Length; i > 0; i--)
+				array[name.Length - i] = name[i - 1];
+
+			var reversed = new string(array);
+			Console.WriteLine("Reversed name: " + reversed);
 		}
 
 		//3- Write a program and ask the user to enter 5 numbers.If a number has been previously 

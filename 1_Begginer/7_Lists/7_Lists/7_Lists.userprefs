@@ -1,20 +1,9 @@
 ﻿<Properties StartupConfiguration="{2F505AEA-24C0-40A6-B947-33E94AC6C057}|Default">
   <MonoDevelop.Ide.ItemProperties.7__Lists PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../7_ListsExercices/7_ListsExercices/Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="28" Column="43" />
+      <File FileName="../../7_ListsExercices/7_ListsExercices/Program.cs" Line="86" Column="32" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="7_Lists" expanded="True">
-            <Node name="7_Lists" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

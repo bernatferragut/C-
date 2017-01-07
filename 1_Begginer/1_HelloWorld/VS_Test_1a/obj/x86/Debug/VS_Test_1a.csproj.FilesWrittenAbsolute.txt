@@ -1,0 +1,10 @@
+/Users/bernatferragut/VSProjects/VS_Test_1a/VS_Test_1a/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/VSProjects/VS_Test_1a/VS_Test_1a/bin/Debug/VS_Test_1a.exe.mdb
+/Users/bernatferragut/VSProjects/VS_Test_1a/VS_Test_1a/bin/Debug/VS_Test_1a.exe
+/Users/bernatferragut/VSProjects/VS_Test_1a/VS_Test_1a/obj/x86/Debug/VS_Test_1a.exe
+/Users/bernatferragut/VSProjects/VS_Test_1a/VS_Test_1a/obj/x86/Debug/VS_Test_1a.exe.mdb
+/Users/bernatferragut/C#/VS_Test_1a/VS_Test_1a/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/VS_Test_1a/VS_Test_1a/bin/Debug/VS_Test_1a.exe.mdb
+/Users/bernatferragut/C#/VS_Test_1a/VS_Test_1a/bin/Debug/VS_Test_1a.exe
+/Users/bernatferragut/C#/VS_Test_1a/VS_Test_1a/obj/x86/Debug/VS_Test_1a.exe
+/Users/bernatferragut/C#/VS_Test_1a/VS_Test_1a/obj/x86/Debug/VS_Test_1a.exe.mdb

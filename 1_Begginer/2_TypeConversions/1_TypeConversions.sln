@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_TypeConversions", "1_TypeConversions\1_TypeConversions.csproj", "{FB8501E9-8615-458E-A6D8-90DE169FAA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8501E9-8615-458E-A6D8-90DE169FAA51}.Debug|x86.ActiveCfg = Debug|x86
+		{FB8501E9-8615-458E-A6D8-90DE169FAA51}.Debug|x86.Build.0 = Debug|x86
+		{FB8501E9-8615-458E-A6D8-90DE169FAA51}.Release|x86.ActiveCfg = Release|x86
+		{FB8501E9-8615-458E-A6D8-90DE169FAA51}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

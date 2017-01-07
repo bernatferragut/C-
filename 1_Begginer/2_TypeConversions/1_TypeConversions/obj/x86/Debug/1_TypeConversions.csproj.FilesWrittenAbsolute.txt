@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/1_Begginer/1_TypeConversions/1_TypeConversions/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/1_Begginer/1_TypeConversions/1_TypeConversions/bin/Debug/1_TypeConversions.exe.mdb
+/Users/bernatferragut/C#/1_Begginer/1_TypeConversions/1_TypeConversions/bin/Debug/1_TypeConversions.exe
+/Users/bernatferragut/C#/1_Begginer/1_TypeConversions/1_TypeConversions/obj/x86/Debug/1_TypeConversions.exe
+/Users/bernatferragut/C#/1_Begginer/1_TypeConversions/1_TypeConversions/obj/x86/Debug/1_TypeConversions.exe.mdb

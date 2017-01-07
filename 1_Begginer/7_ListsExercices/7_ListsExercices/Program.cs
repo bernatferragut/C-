@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _ListsExercices
 {
@@ -6,7 +7,7 @@ namespace _ListsExercices
 	{
 		public static void Main(string[] args)
 		{
-			Exercice2();
+			Exercice1();
 		}
 
 		//1- When you post a message on Facebook, depending on the number of people who like 
@@ -18,13 +19,48 @@ namespace _ListsExercices
 		//and[Friend 2] like your post.
 		//If more than two people like your post, it displays: [Friend 1], [Friend 2] and[Number 
 		//of Other People] others like your post.
+
 		//Write a program and continuously ask the user to enter different names, until the user 
 		//presses Enter (without supplying a name). Depending on the number of names provided, 
 		//display a message based on the above pattern.
 
 		public static void Exercice1()
 		{
-			
+			var continual = true;
+			var namesList = new List<string>();
+
+			while (continual) //true
+			{
+				Console.WriteLine("Enter a name: ");
+				var name = Console.ReadLine();
+
+				if (name == "")
+				{
+					break;
+				}
+				else
+				{
+					namesList.Add(name);
+
+					for (var n = 0; n < namesList.Count; n++) // names = 1
+					{
+						if (n == 1) // names = 2
+						{
+							Console.WriteLine("{0} : Like your Post", namesList[0]);
+							Console.WriteLine("{0} : Like your Post", namesList[1]);
+							Console.WriteLine("###################");
+						}
+						else if (n > 1) // names > 2
+						{
+							Console.WriteLine("{0} : Like your Post", namesList[0]);
+							Console.WriteLine("{0} : Like your Post", namesList[1]);
+							Console.WriteLine("{0} : Others Like your post", (namesList.Count) - 2);
+							Console.WriteLine("###################");
+
+						}
+					}
+				}
+			}
 		}
 
 		//2- Write a program and ask the user to enter their name.Use an array to reverse 

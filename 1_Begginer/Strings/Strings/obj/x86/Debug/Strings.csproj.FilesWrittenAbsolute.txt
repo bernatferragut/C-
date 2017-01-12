@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/1_Begginer/Strings/Strings/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/1_Begginer/Strings/Strings/bin/Debug/Strings.exe.mdb
+/Users/bernatferragut/C#/1_Begginer/Strings/Strings/bin/Debug/Strings.exe
+/Users/bernatferragut/C#/1_Begginer/Strings/Strings/obj/x86/Debug/Strings.exe
+/Users/bernatferragut/C#/1_Begginer/Strings/Strings/obj/x86/Debug/Strings.exe.mdb

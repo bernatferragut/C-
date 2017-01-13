@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{71697B2F-B788-4EA4-B8E4-F31E70091D58}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StringUtility.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SBOperations.cs">
     <Files>
-      <File FileName="Program.cs" Line="13" Column="34" />
-      <File FileName="SBOperations.cs" Line="12" Column="4" />
-      <File FileName="StringUtility.cs" Line="10" Column="37" />
+      <File FileName="Program.cs" Line="13" Column="30" />
+      <File FileName="SBOperations.cs" Line="16" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

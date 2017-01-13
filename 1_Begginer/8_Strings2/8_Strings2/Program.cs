@@ -10,8 +10,7 @@ namespace _Strings2
 			//var sentence = "This is going to be a really really really really really really long text";
 			//var summary = StringUtility.SummarizeText(sentence, 100);
 			//Console.WriteLine(summary);
-			StringBuilder.StringBuilder();
-
+			SBOperations.Operations();
 		}
 
 	}

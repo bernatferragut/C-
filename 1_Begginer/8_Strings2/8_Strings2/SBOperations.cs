@@ -8,9 +8,14 @@ namespace _Strings2
 		// It's a mutable string without a bunch of methods
 		//StringBuilder Manipulations
 
-		public void Operations()
+		public static void Operations()
 		{
 			var builder = new StringBuilder();
+
+			builder.Append('=', 10);
+			builder.AppendLine();
+			builder.Append("Header");
+			Console.WriteLine(builder);
 		}
 	}
 }

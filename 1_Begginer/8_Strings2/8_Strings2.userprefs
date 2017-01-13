@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{71697B2F-B788-4EA4-B8E4-F31E70091D58}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="8_Strings2/Program.cs">
     <Files>
-      <File FileName="8_Strings2/Program.cs" Line="10" Column="4" />
+      <File FileName="8_Strings2/Program.cs" Line="12" Column="31" />
+      <File FileName="8_Strings2/StringUtility.cs" Line="7" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

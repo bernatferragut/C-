@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{71697B2F-B788-4EA4-B8E4-F31E70091D58}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StringUtility.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StringBuilder.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="StringUtility.cs" Line="28" Column="51" />
+      <File FileName="Program.cs" Line="9" Column="4" />
+      <File FileName="StringUtility.cs" Line="10" Column="37" />
+      <File FileName="StringBuilder.cs" Line="6" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

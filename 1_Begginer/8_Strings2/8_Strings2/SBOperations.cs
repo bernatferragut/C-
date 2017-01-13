@@ -1,14 +1,16 @@
 ﻿using System;
+using System.Text;
+
 namespace _Strings2
 {
-	public class StringBuilder
+	public class SBOperations
 	{
 		// It's a mutable string without a bunch of methods
 		//StringBuilder Manipulations
 
-		public StringBuilder()
+		public void Operations()
 		{
-			public static 
+			var builder = new StringBuilder();
 		}
 	}
 }

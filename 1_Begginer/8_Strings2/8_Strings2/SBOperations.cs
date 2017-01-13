@@ -11,11 +11,17 @@ namespace _Strings2
 		public static void Operations()
 		{
 			var builder = new StringBuilder();
-
+			//Add
 			builder.Append('=', 10);
 			builder.AppendLine();
 			builder.Append("Header");
+			builder.AppendLine();
+			builder.Append('=', 10);
+
+			//Replace
+			builder.Replace('=', '+');
 			Console.WriteLine(builder);
+
 		}
 	}
 }

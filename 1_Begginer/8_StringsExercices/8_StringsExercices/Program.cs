@@ -29,13 +29,29 @@ namespace _StringsExercices
 			foreach (var number in hyphenNumsSplitted)
 			{
 				numbersList.Add(Convert.ToInt32(number));
-
 			}
 
 			//We have the list now
-
-
-
+			var ok = 0;
+			for (var n = 0; n < numbersList.Count; n++)
+			{
+				if ((numbersList[n] - numbersList[n + 1]) == -1 || (numbersList[n] - numbersList[n + 1]) == 1)
+				{
+					ok++;
+				}
+				else
+				{
+					ok--;
+				}
+			}
+			if (ok == numbersList.Count)
+			{
+				Console.WriteLine("Consecutive");
+			}
+			else
+			{
+				Console.WriteLine("Not Consecutive");
+			}
 		}
 
 		//2- Write a program and ask the user to enter a few numbers separated by a hyphen.

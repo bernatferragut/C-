@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/1_Begginer/8_StringsExercices/8_StringsExercices/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/1_Begginer/8_StringsExercices/8_StringsExercices/bin/Debug/8_StringsExercices.exe.mdb
+/Users/bernatferragut/C#/1_Begginer/8_StringsExercices/8_StringsExercices/bin/Debug/8_StringsExercices.exe
+/Users/bernatferragut/C#/1_Begginer/8_StringsExercices/8_StringsExercices/obj/x86/Debug/8_StringsExercices.exe
+/Users/bernatferragut/C#/1_Begginer/8_StringsExercices/8_StringsExercices/obj/x86/Debug/8_StringsExercices.exe.mdb

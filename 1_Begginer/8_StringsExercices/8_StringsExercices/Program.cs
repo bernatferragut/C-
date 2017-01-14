@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _StringsExercices
 {
@@ -18,7 +19,23 @@ namespace _StringsExercices
 		//or "20-19-18-17-16", display a message: "Consecutive"; otherwise, display "Not Consecutive".
 		public static void Exercice1()
 		{
-			Console.WriteLine("Ex1!");
+			Console.WriteLine("Enter few numbers separated by a hyphen: ");
+			var hyphenNums = Console.ReadLine();
+
+			var numbersList = new List<int>();
+
+			var hyphenNumsSplitted = hyphenNums.Split('-');
+
+			foreach (var number in hyphenNumsSplitted)
+			{
+				numbersList.Add(Convert.ToInt32(number));
+
+			}
+
+			//We have the list now
+
+
+
 		}
 
 		//2- Write a program and ask the user to enter a few numbers separated by a hyphen.

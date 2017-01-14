@@ -7,51 +7,39 @@ namespace _StringsExercices
 	{
 		public static void Main(string[] args)
 		{
-			Exercice1();
-			//Exercice2();
-			//Exercice3();
-			//Exercice4();
-			//Exercice5();
+			Exercise1();
+			//Exercise2();
+			//Exercise3();
+			//Exercise4();
+			//Exercise5();
 		}
 
 		//1- Write a program and ask the user to enter a few numbers separated by a hyphen.
 		//Work out if the numbers are consecutive. For example, if the input is "5-6-7-8-9" 
 		//or "20-19-18-17-16", display a message: "Consecutive"; otherwise, display "Not Consecutive".
-		public static void Exercice1()
+		public static void Exercise1()
 		{
-			Console.WriteLine("Enter few numbers separated by a hyphen: ");
-			var hyphenNums = Console.ReadLine();
+			Console.Write("Enter a few numbers (eg 1-2-3-4): ");
+			var input = Console.ReadLine();
 
-			var numbersList = new List<int>();
+			var numbers = new List<int>();
+			foreach (var number in input.Split('-'))
+				numbers.Add(Convert.ToInt32(number));
 
-			var hyphenNumsSplitted = hyphenNums.Split('-');
+			numbers.Sort();
 
-			foreach (var number in hyphenNumsSplitted)
+			var isConsecutive = true;
+			for (var i = 1; i < numbers.Count; i++)
 			{
-				numbersList.Add(Convert.ToInt32(number));
-			}
-
-			//We have the list now
-			var ok = 0;
-			for (var n = 0; n < numbersList.Count; n++)
-			{
-				if ((numbersList[n] - numbersList[n + 1]) == -1 || (numbersList[n] - numbersList[n + 1]) == 1)
+				if (numbers[i] != numbers[i - 1] + 1)
 				{
-					ok++;
-				}
-				else
-				{
-					ok--;
+					isConsecutive = false;
+					break;
 				}
 			}
-			if (ok == numbersList.Count)
-			{
-				Console.WriteLine("Consecutive");
-			}
-			else
-			{
-				Console.WriteLine("Not Consecutive");
-			}
+
+			var message = isConsecutive ? "Consecutive" : "Not Consecutive";
+			Console.WriteLine(message);
 		}
 
 		//2- Write a program and ask the user to enter a few numbers separated by a hyphen.

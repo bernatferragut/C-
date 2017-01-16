@@ -1,0 +1,6 @@
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/bin/Debug/netcoreapp1.0/1_.NET_Test1.dll
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/bin/Debug/netcoreapp1.0/1_.NET_Test1.pdb
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/obj/Debug/netcoreapp1.0/1_.NET_Test1.csprojResolveAssemblyReference.cache
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/obj/Debug/netcoreapp1.0/1_.NET_Test1.AssemblyInfo.cs
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/obj/Debug/netcoreapp1.0/1_.NET_Test1.dll
+/Users/bernatferragut/C#/1_Begginer/5_.NET/1_.NET_Test1/src/1_.NET_Test1/obj/Debug/netcoreapp1.0/1_.NET_Test1.pdb

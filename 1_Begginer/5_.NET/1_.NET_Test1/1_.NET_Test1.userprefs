@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{141A95E3-8E30-4527-8623-D6D40F47940A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/1_.NET_Test1/MyPageForm.cs">
+    <Files>
+      <File FileName="src/1_.NET_Test1/Startup.cs" Line="30" Column="4" />
+      <File FileName="src/1_.NET_Test1/MyPageForm.cs" Line="8" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="1_.NET_Test1" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="1_.NET_Test1" expanded="True">
+                <Node name="MyPageForm.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.1__.NET__Test1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

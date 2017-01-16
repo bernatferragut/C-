@@ -42,7 +42,6 @@ namespace _StringsExercices
 			Console.WriteLine(message);
 		}
 
-
 		//2- Write a program and ask the user to enter a few numbers separated by a hyphen.
 		//If the user simply presses Enter, without supplying an input, exit immediately; 
 		//otherwise, check to see if there are duplicates.If so, display "Duplicate" on the console.
@@ -75,7 +74,6 @@ namespace _StringsExercices
 			if (includesDuplicates)
 				Console.WriteLine("Duplicate");
 		}
-
 
 		//3- Write a program and ask the user to enter a time value in the 24-hour time format(e.g. 19:00). 
 		//A valid time should be between 00:00 and 23:59. If the time is valid, display "Ok"; 
@@ -163,6 +161,5 @@ namespace _StringsExercices
 
 			Console.WriteLine(vowelsCount);
 		}
-
 	}
 }

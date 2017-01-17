@@ -15,11 +15,12 @@ namespace _Procedurals
 			Console.WriteLine(result);
 		}
 
+		//Option 1
 		public static string WordWithPascaleCase(string input)
 		{
 			if (String.IsNullOrWhiteSpace(input))
 			{
-				return "Error";
+				return "";
 			}
 
 			var variableName = "";
@@ -30,6 +31,22 @@ namespace _Procedurals
 			}
 			return variableName;
 			
+		}
+
+		// Option2
+		public string GetVariableName(string input)
+		{
+			if (String.IsNullOrWhiteSpace(input))
+				return "";
+
+			var variableName = "";
+			foreach (var word in input.Split(' '))
+			{
+				var wordWithPascalCase = char.ToUpper(word[0]) + word.ToLower().Substring(1);
+				variableName += wordWithPascalCase;
+			}
+
+			return variableName;
 		}
 	}
 }

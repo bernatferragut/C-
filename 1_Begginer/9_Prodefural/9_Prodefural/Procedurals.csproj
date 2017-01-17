@@ -37,6 +37,7 @@
     <Compile Include="ConsecutiveNumber.cs" />
     <Compile Include="Ex2.cs" />
     <Compile Include="Ex1.cs" />
+    <Compile Include="Ex3.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

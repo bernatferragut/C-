@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{4AC9A597-AA65-44D7-A93C-39878272B457}|Default">
   <MonoDevelop.Ide.ItemProperties.Procedurals PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ex2.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="14" Column="1" />
       <File FileName="Ex1.cs" Line="1" Column="1" />
       <File FileName="Ex2.cs" Line="1" Column="1" />
+      <File FileName="Ex3.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

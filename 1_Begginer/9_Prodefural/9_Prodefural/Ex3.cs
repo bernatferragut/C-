@@ -26,12 +26,12 @@ namespace _Procedurals
 			var result = TimeComparison(components);
 			if (result == true)
 				Console.WriteLine("Valid Time");
-			
+
 			Console.WriteLine("Invalid Time");
 
 		}
 
-		public static bool TimeComparison (string[] components)
+		public static bool TimeComparison(string[] components)
 		{
 			try
 			{
@@ -41,7 +41,7 @@ namespace _Procedurals
 				if (hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59)
 					return true;
 				else
-					return false ;
+					return false;
 			}
 			catch (Exception)
 			{

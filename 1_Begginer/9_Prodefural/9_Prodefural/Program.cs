@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _Prodefural
+namespace _Procedurals
 {
 	class MainClass
 	{

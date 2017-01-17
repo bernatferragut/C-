@@ -38,6 +38,7 @@
     <Compile Include="Ex2.cs" />
     <Compile Include="Ex1.cs" />
     <Compile Include="Ex3.cs" />
+    <Compile Include="Ex4.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -48,5 +48,27 @@ namespace _Procedurals
 				return false;
 			}
 		}
+		// Corrections
+		public bool IsValidTime(string time)
+		{
+			if (String.IsNullOrWhiteSpace(time))
+				return false;
+
+			var components = time.Split(':');
+			if (components.Length != 2)
+				return false;
+
+			try
+			{
+				var hour = Convert.ToInt32(components[0]);
+				var minute = Convert.ToInt32(components[1]);
+
+				return (hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59);
+			}
+			catch (Exception)
+			{
+				return false;
+			}
+		}
 	}
 }

@@ -7,7 +7,7 @@ namespace _Files1
 	{
 		public static void Main(string[] args)
 		{
-
+			//####FILES####
 			var path = @"c:\temp\myfile.jpeg";
 
 			//Copy
@@ -19,16 +19,19 @@ namespace _Files1
 
 			//Exists
 
-			if (File.Exists(@"c:\temp\myfile.jpeg")
+			//if (File.Exists(@"c:\temp\myfile.jpeg")
 				//do something
 
 				//Read
 
 			var content = File.ReadAllText(path);
 
+			//####FILESINFO####
 
-
-
+			var fileInfo = new FileInfo(path);
+			//Copy
+			fileInfo.CopyTo("...");
+			fileInfo.Delete();
 
 		}
 	}

@@ -41,9 +41,6 @@ namespace _Files1
 
 			fileInfo.OpenRead("different way of openeing a file");
 
-
-
-
 		}
 	}
 }

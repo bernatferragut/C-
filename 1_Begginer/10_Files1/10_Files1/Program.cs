@@ -7,10 +7,8 @@ namespace _Files1
 	{
 		public static void Main(string[] args)
 		{
-			//####FILES####
-			var path = @"c:\temp\myfile.jpeg";
+			//FILES > Provides static methods
 
-			//Copy
 			File.Copy(@"c:\temp\myfile.jpeg", @"d:\temp\myfile.jpeg", true);
 			// verbatim string
 
@@ -19,19 +17,32 @@ namespace _Files1
 
 			//Exists
 
-			//if (File.Exists(@"c:\temp\myfile.jpeg")
+			if (File.Exists(@"c:\temp\myfile.jpeg")
+			{
 				//do something
-
-				//Read
-
+			}
+			    
+			//Read
 			var content = File.ReadAllText(path);
 
-			//####FILESINFO####
+			//FILESINFO > Provides Instance Methods
 
 			var fileInfo = new FileInfo(path);
 			//Copy
 			fileInfo.CopyTo("...");
 			fileInfo.Delete();
+
+			//Exists is a methof
+
+			if (fileInfo.Exists)
+			{
+				// do something
+			}
+
+			fileInfo.OpenRead("different way of openeing a file");
+
+
+
 
 		}
 	}

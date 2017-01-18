@@ -20,10 +20,16 @@ namespace _Files1
 			//Exists
 
 			if (File.Exists(@"c:\temp\myfile.jpeg")
-			{
-				//something
-			}
-			    
+				//do something
+
+				//Read
+
+			var content = File.ReadAllText(path);
+
+
+
+
+
 		}
 	}
 }

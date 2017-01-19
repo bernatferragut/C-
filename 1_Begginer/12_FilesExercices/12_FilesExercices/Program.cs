@@ -5,14 +5,28 @@ namespace _FilesExercices
 {
 	class MainClass
 	{
-
-		//1 - Write a program that reads a text file and displays the number of words.
-
-		//2 - Write a program that reads a text file and displays the longest word in the file.
-
 		public static void Main(string[] args)
 		{
+			Exercise1.Solution1();
+			//Exercise1.Solution2();
+		}
+	}
+
+	//1 - Write a program that reads a text file and displays the number of words.
+	public static class Exercise1
+	{
+		public static void Solution1()
+		{
 			
+		}
+	}
+
+	//2 - Write a program that reads a text file and displays the longest word in the file.
+	public static class Exercise2
+	{
+		public static void Solution2()
+		{
+
 		}
 	}
 }

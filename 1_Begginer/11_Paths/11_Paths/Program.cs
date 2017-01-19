@@ -9,6 +9,13 @@ namespace _Paths
 		{
 			var path = @"C:\Projects\CSharpFundamentals\myCSharpSolution.sln";
 
+			//Classic Method
+			//var dotIndex = path.IndexOf('.');
+			//var extension = path.Substring(dotIndex);
+
+			//Path Class
+			var myExtension = Path.GetExtension(path);
+			Console.WriteLine("Extension: " + myExtension);
 
 		}
 	}

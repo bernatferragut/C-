@@ -17,6 +17,11 @@ namespace _Paths
 			var myExtension = Path.GetExtension(path);
 			Console.WriteLine("Extension: " + myExtension);
 
+			//FileName
+			var myFileName = Path.GetFileName(path);
+			Console.WriteLine("File Name: " + myFileName);
+
+
 		}
 	}
 }

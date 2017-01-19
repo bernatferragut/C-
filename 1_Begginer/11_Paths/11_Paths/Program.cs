@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace _Paths
 {
@@ -6,7 +7,9 @@ namespace _Paths
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			var path = @"C:\Projects\CSharpFundamentals\myCSharpSolution.sln";
+
+
 		}
 	}
 }

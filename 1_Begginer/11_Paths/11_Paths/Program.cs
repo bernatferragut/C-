@@ -25,7 +25,9 @@ namespace _Paths
 			var myFileNameWE = Path.GetFileNameWithoutExtension(path);
 			Console.WriteLine("File Name Without Extension: " + myFileNameWE);
 
-
+			//Get Directoy Name
+			var directoryName = Path.GetDirectoryName(path);
+			Console.WriteLine("Directory Name: " + directoryName);
 		}
 	}
 }

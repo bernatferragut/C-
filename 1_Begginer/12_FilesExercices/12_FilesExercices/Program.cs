@@ -17,7 +17,9 @@ namespace _FilesExercices
 	{
 		public static void Solution1()
 		{
-			
+			var path = @"/Users/bernatferragut/C\#/1_Begginer/12_FilesExercices/files/Abulafia.txt";//Master/
+
+
 		}
 	}
 

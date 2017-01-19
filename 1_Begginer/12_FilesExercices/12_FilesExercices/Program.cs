@@ -17,15 +17,21 @@ namespace _FilesExercices
 	{
 		public static void Solution1()
 		{
-			var path = @"Master:\Users\bernatferragut\Desktop\files\Abulafia.txt ";
-			//var path = @"Master:/Users/bernatferragut/C\#/1_Begginer/12_FilesExercices/files/Abulafia.txt";
-			//var path = @"Master:\Users\bernatferragut\C\\#\1_Begginer\12_FilesExercices\files\Abulafia.txt";
-			
-			//@"Master:\temp\myfile.jpeg"
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.txt ";
+			//@"Master:\temp\myfile.jpeg";
 
-			var text = File.OpenRead(path);
-			Console.WriteLine(text);
 
+			if (File.Exists(path))
+			{
+				// Read and show the file.
+				var readFile = File.OpenRead(path);
+				Console.WriteLine(readFile);
+
+			}
+			else
+			{
+				Console.WriteLine("File does not exist");
+			}
 		}
 	}
 

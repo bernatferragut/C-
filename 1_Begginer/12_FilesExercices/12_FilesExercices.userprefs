@@ -2,19 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.12__FilesExercices PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="12_FilesExercices/Program.cs">
     <Files>
-      <File FileName="12_FilesExercices/Program.cs" Line="21" Column="7" />
+      <File FileName="12_FilesExercices/Program.cs" Line="23" Column="4" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="12_FilesExercices" expanded="True">
-            <Node name="12_FilesExercices" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

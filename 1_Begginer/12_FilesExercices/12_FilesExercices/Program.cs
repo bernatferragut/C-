@@ -17,15 +17,13 @@ namespace _FilesExercices
 	{
 		public static void Solution1()
 		{
-			//var path = @"/Users/bernatferragut/Desktop/files/Test/TestProject/Program.cs";
-			var path = @"/Users/bernatferragut/Desktop/files/Test/TestProject/Program.cs";
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.cs";
 
 			if (File.Exists(path))
 			{
 				// Read and show the file.
 				var readFile = File.ReadAllText(path);
 				Console.WriteLine("Text Content: {0}" , readFile);
-
 			}
 			else
 			{

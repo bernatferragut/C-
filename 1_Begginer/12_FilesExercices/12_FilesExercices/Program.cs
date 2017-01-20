@@ -18,7 +18,7 @@ namespace _FilesExercices
 		public static void Solution1()
 		{
 			//var path = @"/Users/bernatferragut/Desktop/files/Abulafia.txt ";
-			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.txt";
+			var path = @"/Users/bernatferragut/Desktop/files/Test/10_Files1.sln";
 			//MacBook-Air-de-Bernat-3:~ bernatferragut$ /Users/bernatferragut/Desktop/files/Abulafia.txt 
 
 

@@ -7,8 +7,8 @@ namespace _FilesExercices
 	{
 		public static void Main(string[] args)
 		{
-			Exercise1.Solution1();
-			//Exercise1.Solution2();
+			//Exercise1.Solution1();
+			Exercise1.Solution2();
 		}
 	}
 
@@ -28,7 +28,6 @@ namespace _FilesExercices
 				var number = WordCount(input);
 
 				Console.WriteLine("Number of words: {0}", number);
-
 			}
 			else
 			{

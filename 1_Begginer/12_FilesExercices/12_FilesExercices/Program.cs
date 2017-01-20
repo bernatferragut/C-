@@ -22,13 +22,30 @@ namespace _FilesExercices
 			if (File.Exists(path))
 			{
 				// Read and show the file.
-				var readFile = File.ReadAllText(path);
-				Console.WriteLine("Text Content: {0}" , readFile);
+				var input = File.ReadAllText(path);
+
+				//Using WordCount
+				var number = WordCount(input);
+
+				Console.WriteLine("Number of words: {0}", number);
+
 			}
 			else
 			{
 				Console.WriteLine("File does not exist");
 			}
+		}
+
+		//the function for counting words
+		public static int WordCount(string input)
+		{
+			//Calculating the number of words
+			int counter = 0;
+			foreach (var word in (input.Split()))
+			{
+				counter++;
+			}
+			return counter;
 		}
 	}
 

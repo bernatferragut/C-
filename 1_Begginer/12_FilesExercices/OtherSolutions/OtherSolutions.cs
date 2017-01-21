@@ -30,11 +30,11 @@ namespace  Exercise_1
 
 staticvoidMain(string[] args)
 {
-var path =@"C:\Users\Sarxan\Documents\test.txt";
-Console.WriteLine("number of words:"+SplitWords(path).Length);
+    var path =@"C:\Users\Sarxan\Documents\test.txt";
+    Console.WriteLine("number of words:"+SplitWords(path).Length);
 }
 publicstaticstring[]SplitWords(string filename)
 {    
-        filename=File.ReadAllText(filename).Replace("\r\n"," ");
-returnRegex.Split(filename,@"\W+");
+    filename=File.ReadAllText(filename).Replace("\r\n"," ");
+    returnRegex.Split(filename,@"\W+");
 }

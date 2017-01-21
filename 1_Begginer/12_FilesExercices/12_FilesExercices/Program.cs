@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace _FilesExercices
 {
@@ -45,6 +46,37 @@ namespace _FilesExercices
 				counter++;
 			}
 			return counter;
+		}
+	}
+
+	//1 - Write a program that reads a text file and displays the number of words.
+	public static class Exercise1B
+	{
+		
+
+		public static void Solution1()
+		{
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.cs";
+
+			Console.WriteLine("number of words:" + NumberofWords(path));
+		}
+
+		//the function for counting words
+		public static int NumberofWords(string path)
+		{
+			char[] chars = { ' ', ',', '.', '?', '!', ';', ':', '\'', '-', '/', '=' };
+
+			var text = File.ReadAllText(path).Replace("\r\n", " "); // return and end of line for whitespace
+
+			var count = 0;
+			for (var i = 0; i < text.Length - 1; i++)
+			{
+				if (!chars.Contains(text[i]) && chars.Contains(text[i + 1]))  // check for double,tripple whitespaces,comma etc  
+				{
+					count++;
+				}
+				return count;
+			}
 		}
 	}
 

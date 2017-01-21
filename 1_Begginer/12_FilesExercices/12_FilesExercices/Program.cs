@@ -8,7 +8,7 @@ namespace _FilesExercices
 		public static void Main(string[] args)
 		{
 			//Exercise1.Solution1();
-			Exercise1.Solution2();
+			Exercise2.Solution2();
 		}
 	}
 
@@ -53,7 +53,32 @@ namespace _FilesExercices
 	{
 		public static void Solution2()
 		{
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.cs";
 
+			if (File.Exists(path))
+			{
+				Console.WriteLine("File Exist");
+
+				var myText = File.ReadAllText(path);
+				var myWords = myText.Split();
+
+				var numLetters = 0;
+
+				for (var i = 0; i < myWords.Length; i++)
+				{
+					var num = myWords[i].Split();
+					var len = num.Length;
+
+					if (len > numLetters)
+						numLetters = len;
+				}
+
+				Console.WriteLine("The longest word has: {0} Letters", numLetters);
+			}
+			else
+			{
+				Console.WriteLine("File does not Exist");
+			}
 		}
 	}
 }

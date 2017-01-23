@@ -100,7 +100,8 @@ namespace _FilesExercices
 
 				if (myList.Contains(inputWords[i]))
 				{
-					myDict.Add(inputWords[i], count++);
+					count++;
+					//myDict.Add(inputWords[i], count);
 				}
 				else
 				{

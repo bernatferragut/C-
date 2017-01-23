@@ -91,15 +91,21 @@ namespace _FilesExercices
 			var myList = new List<string>();
 			//input
 			var inputWords = input.Split();
-			var count = 0;
+
+			var count = 1;
+
 			for (var i = 0; i < inputWords.Length; i++)
 			{
-				myList.Add(inputWords[i]);
 
 				if (myList.Contains(inputWords[i]))
 				{
 					myDict.Add(inputWords[i], count++);
 				}
+				else
+				{
+					myDict.Add(inputWords[i], count)
+				}
+				myList.Add.(Convert.ToInt32(myDict.Values));
 			}
 			//return counter;
 		}

@@ -71,8 +71,8 @@ namespace _FilesExercices
 
 				//Using MostRepeatedWord
 				var repeatedWord = MostRepeatedWord(input);
-
-				Console.WriteLine("The Most Repeated word is : {0}", repeatedWord);
+				foreach (var keyValuePair in  repeatedWord)
+					Console.WriteLine("The Most Repeated word is : {0}", keyValuePair);
 			}
 			else
 			{
@@ -81,7 +81,7 @@ namespace _FilesExercices
 		}
 
 		//the function for MostRepeatedWord
-		public static string MostRepeatedWord(string input)
+		public static Dictionary<string, int> MostRepeatedWord(string input)
 		{
 			//Calculating the MostRepeatedWord
 
@@ -96,6 +96,7 @@ namespace _FilesExercices
 
 			for (var i = 0; i < inputWords.Length; i++)
 			{
+				myList.Add(inputWords[i]);
 
 				if (myList.Contains(inputWords[i]))
 				{
@@ -103,11 +104,10 @@ namespace _FilesExercices
 				}
 				else
 				{
-					myDict.Add(inputWords[i], count)
+					myDict.Add(inputWords[i], count);
 				}
-				myList.Add.(Convert.ToInt32(myDict.Values));
 			}
-			//return counter;
+			return myDict;
 		}
 	}
 }

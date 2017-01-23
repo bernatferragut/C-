@@ -38,3 +38,16 @@ publicstaticstring[]SplitWords(string filename)
     filename=File.ReadAllText(filename).Replace("\r\n"," ");
     returnRegex.Split(filename,@"\W+");
 }
+
+// Hi Bernat,
+
+// Are you familiar with dictionaries? 
+//A better approach to keep track of the count of each word is to use a dictionary. 
+//With a dictionary, you get fast lookups. So you don't need these nested loops to find them and count them.
+//You need to iterate over the words, and for each word, look it up in the dictionary 
+//and increase its count by 1.
+// Then, you loop over all dictionary and find the words with the the highest repetitions.
+// I probably need to remove this exercise here as it's a bit too complicated for the basics 
+// course. Give me some time to design another similar but simpler exercise.
+
+var MyDict = new Dictionary< int Key, string Value> ();

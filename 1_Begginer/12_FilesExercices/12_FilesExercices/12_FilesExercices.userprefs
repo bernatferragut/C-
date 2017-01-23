@@ -2,12 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.12__FilesExercices PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="72" Column="31" />
+      <File FileName="Program.cs" Line="127" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bernatferragut/C#/1_Begginer/12_FilesExercices/12_FilesExercices/Program.cs" relfile="Program.cs" line="66" column="1" />
+      <Breakpoint file="/Users/bernatferragut/C#/1_Begginer/12_FilesExercices/12_FilesExercices/Program.cs" relfile="Program.cs" line="73" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

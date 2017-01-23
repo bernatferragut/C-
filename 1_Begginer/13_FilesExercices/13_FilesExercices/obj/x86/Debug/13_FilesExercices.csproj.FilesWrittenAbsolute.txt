@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/1_Begginer/13_FilesExercices/13_FilesExercices/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/1_Begginer/13_FilesExercices/13_FilesExercices/bin/Debug/13_FilesExercices.exe.mdb
+/Users/bernatferragut/C#/1_Begginer/13_FilesExercices/13_FilesExercices/bin/Debug/13_FilesExercices.exe
+/Users/bernatferragut/C#/1_Begginer/13_FilesExercices/13_FilesExercices/obj/x86/Debug/13_FilesExercices.exe
+/Users/bernatferragut/C#/1_Begginer/13_FilesExercices/13_FilesExercices/obj/x86/Debug/13_FilesExercices.exe.mdb

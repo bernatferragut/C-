@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace _FilesExercices
@@ -49,23 +50,58 @@ namespace _FilesExercices
 		}
 	}
 
-	//2 - Write a program that reads a text file and displays the longest word in the file.
-
-	// Are you familiar with dictionaries? 
-	//A better approach to keep track of the count of each word is to use a dictionary. 
-	//With a dictionary, you get fast lookups. So you don't need these nested loops to find them and count them.
-	//You need to iterate over the words, and for each word, look it up in the dictionary 
-	//and increase its count by 1.
-	// Then, you loop over all dictionary and find the words with the the highest repetitions.
-	// I probably need to remove this exercise here as it's a bit too complicated for the basics 
-	// course. Give me some time to design another similar but simpler exercise.
+	//2 - Write a program that reads a text file and displays 'the most repeated word' in the file.
+	// input String
+	// Splitted to List1
+	// Loop over the words
+	// foreach repeated word Add to Dictio
+	// Find most repeated word in discionnary
 
 	//var MyDict = new Dictionary< int Key, string Value> ();
 	public static class Exercise2
 	{
 		public static void Solution1()
 		{
-			Console.WriteLine(" Exercise 2 Solution");
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.cs";
+
+			if (File.Exists(path))
+			{
+				// Read and show the file.
+				var input = File.ReadAllText(path);
+
+				//Using MostRepeatedWord
+				var repeatedWord = MostRepeatedWord(input);
+
+				Console.WriteLine("The Most Repeated word is : {0}", repeatedWord);
+			}
+			else
+			{
+				Console.WriteLine("File does not exist");
+			}
+		}
+
+		//the function for MostRepeatedWord
+		public static string MostRepeatedWord(string input)
+		{
+			//Calculating the MostRepeatedWord
+
+			//MyDict
+			var myDict = new Dictionary<string, int> ();
+			//MyList
+			var myList = new List<string>();
+			//input
+			var inputWords = input.Split();
+			var count = 0;
+			for (var i = 0; i < inputWords.Length; i++)
+			{
+				myList.Add(inputWords[i]);
+
+				if (myList.Contains(inputWords[i]))
+				{
+					myDict.Add(inputWords[i], count++);
+				}
+			}
+			//return counter;
 		}
 	}
 }

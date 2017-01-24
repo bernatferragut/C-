@@ -27,6 +27,13 @@ namespace _FilesExercices
 			//Keeps track words found in dictionary
 			var myDict = new Dictionary<string, bool>();
 
+			//2
+			//Build up String into this StringBuilder
+			var StrBuilder = new StringBuilder();
+
+			//3
+			//
+
 
 		}
 	}

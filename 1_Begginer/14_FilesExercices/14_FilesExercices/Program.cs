@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace _FilesExercices
 {
@@ -11,7 +12,22 @@ namespace _FilesExercices
 	{
 		public static void Main(string[] args)
 		{
-			// Code
+			var path = @"/Users/bernatferragut/Desktop/files/Abulafia.cs";
+
+			var myText = File.ReadAllText(path);
+
+			Console.WriteLine(myText);
+
+			//Console.WriteLine(RemovesDuplicatWords(myText));
+		}
+
+		public static string RemovesDuplicatWords(string myText)
+		{
+			//1
+			//Keeps track words found in dictionary
+			var myDict = new Dictionary<string, bool>();
+
+
 		}
 	}
 }

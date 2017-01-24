@@ -32,7 +32,8 @@ namespace _FilesExercices
 			var StrBuilder = new StringBuilder();
 
 			//3
-			//
+			//Split the input and handle spaces and punctuations
+			var cleanedMyText = myText.Split(new char[] { ' ', ',', ';', '.' }, StringSplitOptions.RemoveEmptyEntries); 
 
 
 		}

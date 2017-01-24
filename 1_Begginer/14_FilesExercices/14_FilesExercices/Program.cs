@@ -50,14 +50,9 @@ namespace _FilesExercices
 					StrBuilder.Append(cleanedToLower).Append(' ');
 					myDict.Add(cleanedToLower, true);
 				}
-				else
-				{
-					
-				}
-					
-
-
-
-		}
+			}
+			//7
+			//Return the Duplicate words removed
+			return StrBuilder.ToString().Trim();
 	}
 }

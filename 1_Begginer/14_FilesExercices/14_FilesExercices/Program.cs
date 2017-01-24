@@ -33,7 +33,29 @@ namespace _FilesExercices
 
 			//3
 			//Split the input and handle spaces and punctuations
-			var cleanedMyText = myText.Split(new char[] { ' ', ',', ';', '.' }, StringSplitOptions.RemoveEmptyEntries); 
+			var cleanedMyText = myText.Split(new char[] { ' ', ',', ';', '.' }, StringSplitOptions.RemoveEmptyEntries);
+
+			//4
+			//Loop over each word
+			foreach (var word in cleanedMyText)
+			{
+				//5
+				//to lower
+				var cleanedToLower = word.ToLower();
+
+				//6
+				//If we have not yet found the word append it to the result
+				if (!myDict.ContainsKey(cleanedToLower))
+				{
+					StrBuilder.Append(cleanedToLower).Append(' ');
+					myDict.Add(cleanedToLower, true);
+				}
+				else
+				{
+					
+				}
+					
+
 
 
 		}

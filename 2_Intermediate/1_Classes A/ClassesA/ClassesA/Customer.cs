@@ -18,13 +18,14 @@ namespace ClassesA
 		}
 
 		public Customer(int id)
+			: this()
 		{
 			this.Id = id;
 		}
 
 		public Customer(int id, string name)
+			: this(id) //  we use this to pass any other ctr field we ant to pass to
 		{
-			this.Id = id;
 			this.Name = name;
 		}
 

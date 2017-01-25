@@ -17,14 +17,14 @@ namespace ClassesA
 			Orders = new List<Order>();
 		}
 
-		public Customer(int id)
+		public Customer(int id) // Overload ctr
 			: this()
 		{
 			this.Id = id;
 		}
 
-		public Customer(int id, string name)
-			: this(id) //  we use this to pass any other ctr field we ant to pass to
+		public Customer(int id, string name) // Overload ctr
+			: this(id) //  we use this to pass any other ctr field we ant to pass to, keep it to minimum
 		{
 			this.Name = name;
 		}

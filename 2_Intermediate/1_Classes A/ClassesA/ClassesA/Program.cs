@@ -6,14 +6,13 @@ namespace ClassesA
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			//Console.WriteLine("Hello World!");
 
-			var Customer = new Customer();
-			//Customer.Id = 1;
-			//Customer.Name = "Ber";
+			var customer = new Customer(1,"Ber");
 
-			Console.WriteLine(Customer.Id);
-			Console.WriteLine(Customer.Name);
+			Console.WriteLine(customer.Id);
+			Console.WriteLine(customer.Name);
+		
 		}
 	}
 

@@ -16,9 +16,9 @@ namespace _FilesExercices
 
 			var myText = File.ReadAllText(path);
 
-			Console.WriteLine(myText);
+			//Console.WriteLine(myText);
 
-			//Console.WriteLine(RemovesDuplicatWords(myText));
+			Console.WriteLine(RemovesDuplicatWords(myText));
 		}
 
 		public static string RemovesDuplicatWords(string myText)
@@ -54,5 +54,6 @@ namespace _FilesExercices
 			//7
 			//Return the Duplicate words removed
 			return StrBuilder.ToString().Trim();
+		}
 	}
 }

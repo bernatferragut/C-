@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 
 namespace ClassesA
@@ -8,10 +9,12 @@ namespace ClassesA
 	{
 		public int Id;
 		public string Name;
+		public List<Order> Orders; // Empty List Initialization always!
 
 		//Default or parameter less ctor
 		public Customer()
 		{
+			Orders = new List<Order>();
 		}
 
 		public Customer(int id)
@@ -24,5 +27,8 @@ namespace ClassesA
 			this.Id = id;
 			this.Name = name;
 		}
+
+		//If we have different fields in initialization
+
 	}
 }

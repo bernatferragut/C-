@@ -26,6 +26,20 @@ namespace ObjectInitializers
 		public string SecondName;
 		public DateTime BirthDate;
 
-		// ctor1
+		// ctor1 Default
+		Person1() { }
+
+		// ctor2
+		Person1(int id) { }
+
+		// ctor3
+		Person1(int id, string firstName) { }
+
+		// ctor4
+		Person1(int id, string firstName, string secondName) { }
+
+		// ctor5
+		Person1(int id, DateTime birthdate) { }
+
 	}
 }

@@ -19,7 +19,7 @@ namespace ObjectInitializers
 	// initialize one of its constructors.
 	// Why? To avoid creating multiple ctors.
 
-	public class Person1
+	public class PersonA
 	{
 		public int Id;
 		public string FirstName;
@@ -27,22 +27,22 @@ namespace ObjectInitializers
 		public DateTime BirthDate;
 
 		// ctor1 Default
-		Person1() { }
+		PersonA() { }
 
 		// ctor2
-		Person1(int id) { }
+		PersonA(int id) { }
 
 		// ctor3
-		Person1(int id, string firstName) { }
+		PersonA(int id, string firstName) { }
 
 		// ctor4
-		Person1(int id, string firstName, string secondName) { }
+		PersonA(int id, string firstName, string secondName) { }
 
 		// ctor5
-		Person1(int id, DateTime birthdate) { }
+		PersonA(int id, DateTime birthdate) { }
 
 		//using Object Initializer
-		var person = new Person1
+		var person1 = new PersonA
 		{
 			Id = 21,
 			FirsName = "Bernat",

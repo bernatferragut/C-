@@ -9,8 +9,20 @@ namespace ObjectInitializers
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-		}
+			//Con//using Object Initializer
+			var person1 = new PersonA
+			{
+				Id = 21,
+				FirstName = "Bernat",
+				SecondName = "Ferragut",
+			};
+
+			var person2 = new PersonA
+			{
+				Id = 31,
+				FirstName = "Laurent",
+				SecondName = "Ferragut",
+			};
 	}
 
 
@@ -27,38 +39,19 @@ namespace ObjectInitializers
 		public DateTime BirthDate;
 
 		// ctor1 Default
-		PersonA() { }
+		public PersonA() { }
 
 		// ctor2
-		PersonA(int id) { }
+		public PersonA(int id) { }
 
 		// ctor3
-		PersonA(int id, string firstName) { }
+		 public PersonA(int id, string firstName) { }
 
 		// ctor4
-		PersonA(int id, string firstName, string secondName) { }
+		public PersonA(int id, string firstName, string secondName) { }
 
 		// ctor5
-		PersonA(int id, DateTime birthdate) { }
+		 public PersonA(int id, DateTime birthdate) { }
 
-		//using Object Initializer
-		var person1 = new PersonA
-		{
-			Id = 21,
-			FirsName = "Bernat",
-			SecondName = "Ferragut",
-			BirthDate = 01:01:1999
-		};
-
-		var person2 = new PersonA
-		{
-			Id = 31,
-			FirsName = "Laurent",
-			SecondName = "Ferragut",
-			BirthDate = 01:01:1989
-		};
 	}
-
-
-
 }

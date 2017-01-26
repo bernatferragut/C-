@@ -41,5 +41,16 @@ namespace ObjectInitializers
 		// ctor5
 		Person1(int id, DateTime birthdate) { }
 
+		//using Object Initializer
+		var person = new Person1
+		{
+			Id = 21,
+			FirsName = "Bernat",
+			SecondName = "Ferragut",
+			BirthDate = 01:01:1999
+		};
 	}
+
+
+
 }

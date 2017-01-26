@@ -49,6 +49,14 @@ namespace ObjectInitializers
 			SecondName = "Ferragut",
 			BirthDate = 01:01:1999
 		};
+
+		var person2 = new PersonA
+		{
+			Id = 31,
+			FirsName = "Laurent",
+			SecondName = "Ferragut",
+			BirthDate = 01:01:1989
+		};
 	}
 
 

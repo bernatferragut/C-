@@ -8,7 +8,8 @@ namespace Methods_1
 	{
 		public static void Main(string[] args)
 		{
-			//Console.WriteLine("Hello World!");
+			var myPoint = new Point();
+			myPoint.Move(3, 4);
 		}
 	}
 

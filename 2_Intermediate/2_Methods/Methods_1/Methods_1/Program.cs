@@ -8,38 +8,17 @@ namespace Methods_1
 	{
 		public static void Main(string[] args)
 		{
-			var myPoint = new Point();
-			myPoint.Move(3, 4);
+			var myPoint = new Point(2,3);
 
-			var myCalculator = new Calculator();
-			myCalculator.Add(new int[] { 0, 1020, 30, 44 });
+			myPoint.Move(new Point(2, 2));
+			Console.WriteLine(" My Point is in {0}X and in {1}Y", myPoint.X, myPoint.Y);
+	
+
+			//var myCalculator = new Calculator();
+			//myCalculator.Add(new int[] { 0, 1020, 30, 44 });
+
+			//var myCalculator2 = new Calculator();
+			//myCalculator2.Add2(0, 10, 2, 3, 4);
 		}
-	}
-
-	public class Point
-	{
-		int x;
-
-		int y;
-
-		public void Move(int x, int y) { }
-
-		//Overloading
-
-		public void Move(Point newLocation) { }
-
-		public void Move(Point newLocation, int speed) { }
-	}
-
-	public class Calculator
-	{
-		//public int Add(int n1, int n2) { }
-		//public int Add(int n1, int n2, int n3) { }
-		//public int Add(int n1, int n2, int n3, int n4) { }
-
-		// using an Array to Oveload
-
-		public int Add(int[] numbers) { }
-
 	}
 }

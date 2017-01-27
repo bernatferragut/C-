@@ -1,7 +1,8 @@
-﻿<Properties StartupConfiguration="{B92B5F07-64FF-4683-AFF5-557E10EFB246}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ObjectInitializers/Program.cs">
+﻿<Properties StartupConfiguration="{E4A48AEF-BAFF-45BD-A21F-A2D58F0F3D39}|Default">
+  <MonoDevelop.Ide.ItemProperties.Methods__1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Methods_1/Program.cs">
     <Files>
-      <File FileName="ObjectInitializers/Program.cs" Line="34" Column="22" />
+      <File FileName="Methods_1/Program.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -9,6 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ObjectInitializers PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

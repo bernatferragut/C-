@@ -8,8 +8,11 @@ namespace Methods_1
 	{
 		public static void Main(string[] args)
 		{
-	
-
+			var calculator = new Calculator();
+			var sum = calculator.Add(1, 2, 3, 4); // Params method
+			var sum2 = calculator.Add(new int[] { 1, 2, 3, 4 });
+			Console.WriteLine(sum);
+			Console.WriteLine(sum2);
 		}
 
 		static void UsePoints()

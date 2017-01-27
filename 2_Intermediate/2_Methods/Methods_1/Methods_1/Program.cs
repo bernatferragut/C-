@@ -10,9 +10,13 @@ namespace Methods_1
 		{
 			var myPoint = new Point(2,3);
 
+			// using Methode Overload 1
 			myPoint.Move(new Point(2, 2));
-			Console.WriteLine(" My Point is in {0}X and in {1}Y", myPoint.X, myPoint.Y);
-	
+			Console.WriteLine(" My Point is at Position {0}X and in {1}Y", myPoint.X, myPoint.Y);
+
+			// using Methode Overload 2
+			myPoint.Move(200, 200);
+			Console.WriteLine(" My Point is at Position {0}X and in {1}Y", myPoint.X, myPoint.Y);
 
 			//var myCalculator = new Calculator();
 			//myCalculator.Add(new int[] { 0, 1020, 30, 44 });

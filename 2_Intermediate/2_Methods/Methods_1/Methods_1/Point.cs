@@ -24,12 +24,22 @@ namespace Methods_1
 			this.Y = y;
 		}
 
-		//method overloading
+		//method overloading 1
 
-		public void Move(Point newLocation) 
+		//public void Move(Point newLocation) 
+		//{
+		//	this.X = newLocation.X;
+		//	this.Y = newLocation.Y;
+		//}
+
+		//method overloading 2 so we do not repeat X and Y
+
+		public void Move(Point newLocation)
 		{
-			this.X = newLocation.X;
-			this.Y = newLocation.Y;
+			// Defensive Programming to make sure points are not null
+			if (newLocation == null)
+				throw new ArgumentNullException("newLocation");
+			Move(newLocation.X, newLocation.Y);
 		}
 
 		public void Move(Point newLocation, int speed) { }

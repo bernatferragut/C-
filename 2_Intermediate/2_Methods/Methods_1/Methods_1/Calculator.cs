@@ -21,5 +21,15 @@ namespace Methods_1
 		// a simle way using: PARAMS Modifier
 
 		//public int Add2(params int[] numbers) { }
+
+		public int Add(params int[] numbers)
+		{
+			var sum = 0;
+			foreach (var number in numbers)
+			{
+				sum += number;
+			}
+			return sum;
+		}
 	}
 }

@@ -8,13 +8,9 @@ namespace Fields
 	{
 		public int Id;
 		public string Name;
-		public List<Order> Orders = new List<Order> (); // 2  We initialize it here as an alternative
+		readonly public List<Order> Orders = new List<Order> (); // 2  We initialize it here as an alternative
 
-		//public Customer()
-		//{
-		//	// 1  Method to initialize a list
-		//	Orders = new List<Order>();
-		//}
+		// Readonly can only used in the initialozation field or in the ctor
 
 		public Customer(int id)
 		{

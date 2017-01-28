@@ -13,8 +13,11 @@ namespace Fields
 
 	public class Customer
 	{
-		// Initialize Order method 2
-		List<Order> Orders = new List<Order>();
+		// The Oders field without a ctor will be always initialized to an empty list
+		//List<Order> Orders = new List<Order>();
+
+		// Readonly to make sure that field is only initialized once
+		readonly List<Order> Orders = new List<Order>();
 
 		public Customer()
 		{

@@ -15,7 +15,7 @@ namespace Methods_1
 			Console.WriteLine(sum2);
 		}
 
-		static void UsePoints()
+		virtual void UsePoints()
 		{
 			try
 			{

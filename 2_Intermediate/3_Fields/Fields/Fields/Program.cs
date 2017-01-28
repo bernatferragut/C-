@@ -15,13 +15,13 @@ namespace Fields
 	{
 		public int Id;
 		public string Name;
-		public List<Order> Orders;
+		public List<Order> Orders = new List<Order> (); // 2  We initialize it here as an alternative
 
-		public Customer()
-		{
-			// 1  Method to initialize a list
-			Orders = new List<Order>();
-		}
+		//public Customer()
+		//{
+		//	// 1  Method to initialize a list
+		//	Orders = new List<Order>();
+		//}
 
 		public Customer(int id)
 		{
@@ -34,11 +34,13 @@ namespace Fields
 			this.Name = name;
 		}
 
+		public void Promote(){ }
+
 	}
 
 	public class Order
 	{
-		
+		//Code
 	}
 
 }

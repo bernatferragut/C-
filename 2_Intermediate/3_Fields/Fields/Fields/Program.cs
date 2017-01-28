@@ -13,17 +13,32 @@ namespace Fields
 
 	public class Customer
 	{
-		// The Oders field without a ctor will be always initialized to an empty list
-		//List<Order> Orders = new List<Order>();
-
-		// Readonly to make sure that field is only initialized once
-		readonly List<Order> Orders = new List<Order>();
+		public int Id;
+		public string Name;
+		public List<Order> Orders;
 
 		public Customer()
 		{
-			// Initialize Order method 1
-			//Orders = new List<Order>();
-	
+			// 1  Method to initialize a list
+			Orders = new List<Order>();
 		}
+
+		public Customer(int id)
+		{
+			this.Id = id;
+		}
+
+		public Customer(int id, string name)
+			:this(id)
+		{
+			this.Name = name;
+		}
+
+	}
+
+	public class Order
+	{
+		
+	}
 
 }

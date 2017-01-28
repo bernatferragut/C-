@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/2_Intermediate/3_Fields/Fields/Fields/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/3_Fields/Fields/Fields/bin/Debug/Fields.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/3_Fields/Fields/Fields/bin/Debug/Fields.exe
+/Users/bernatferragut/C#/2_Intermediate/3_Fields/Fields/Fields/obj/x86/Debug/Fields.exe
+/Users/bernatferragut/C#/2_Intermediate/3_Fields/Fields/Fields/obj/x86/Debug/Fields.exe.mdb

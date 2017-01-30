@@ -15,11 +15,12 @@ namespace AccMod
 	{
 		public static void Main(string[] args)
 		{
-			//Console.WriteLine("Hello World!");
+			var pb = new PersonB();
+			pb.SetBirth(new DateTime().Date);
 		}
 	}
 
-	public class Person
+	public class PersonA
 	{
 		private string _name; //  we cannot access the name
 
@@ -33,7 +34,23 @@ namespace AccMod
 
 		public string GetName()
 		{
-			return _name;
+			return _name; // private fields
 		}
 	}
+
+	public class PersonB
+	{
+		private DateTime _birthdate;
+
+		public void SetBirth(DateTime birth)
+		{
+			this._birthdate = birth;
+		}
+
+		public DateTime GetBirth()
+		{
+			return _birthdate;
+		}
+	}
+
 }

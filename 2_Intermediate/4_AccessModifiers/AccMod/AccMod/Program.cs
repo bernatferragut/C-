@@ -21,19 +21,19 @@ namespace AccMod
 
 	public class Person
 	{
-		private string Name;
+		private string _name; //  we cannot access the name
 
-		public void GetName(string name)
+		public void SetName(string name) // we can only access through the method 
 		{
 			if (!String.IsNullOrWhiteSpace(name)) // we include a condition
 			{
-				this.Name = name;
+				this._name = name;
 			}
 		}
 
-		public string SetName()
+		public string GetName()
 		{
-			return Name;
+			return _name;
 		}
 	}
 }

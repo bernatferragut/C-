@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/2_Intermediate/4_AccessModifiers/AccMod/AccMod/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/4_AccessModifiers/AccMod/AccMod/bin/Debug/AccMod.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/4_AccessModifiers/AccMod/AccMod/bin/Debug/AccMod.exe
+/Users/bernatferragut/C#/2_Intermediate/4_AccessModifiers/AccMod/AccMod/obj/x86/Debug/AccMod.exe
+/Users/bernatferragut/C#/2_Intermediate/4_AccessModifiers/AccMod/AccMod/obj/x86/Debug/AccMod.exe.mdb

@@ -16,7 +16,9 @@ namespace AccMod
 		public static void Main(string[] args)
 		{
 			var pb = new PersonB();
-			pb.SetBirth(new DateTime().Date);
+			pb.SetBirth(new DateTime(1992, 01, 01));
+
+			Console.WriteLine(pb.GetBirth());
 		}
 	}
 
@@ -52,5 +54,9 @@ namespace AccMod
 			return _birthdate;
 		}
 	}
+
+	// Objects are about behaviour about what they DO
+	// Their fields it's a bout their internals
+	//should be hidden from the outside
 
 }

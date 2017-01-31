@@ -29,13 +29,19 @@ namespace Props
 
 	public class Person1
 	{
-		private DateTime _birthdate;
+		private DateTime _birthdate; // field
 
-		public DateTime Birthdate
+		public DateTime Birthdate // properties
 		{
 			get { return _birthdate; }
 			set { _birthdate = value; }
 		}
 	}
 
+	// even simpler with auto implemented properties
+
+	public class Person2
+	{
+		public DateTime Birthdate { get; set; }
+	}
 }

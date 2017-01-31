@@ -12,7 +12,7 @@ namespace Props
 
 	public class Person
 	{
-		private DateTime _birthdate;
+		private DateTime _birthdate; // Declare as private
 
 		public void SetBirth(DateTime Birthdate) // Setter
 		{
@@ -24,4 +24,18 @@ namespace Props
 			return _birthdate;
 		}
 	}
+
+	// We can avhieve the same with a Property
+
+	public class Person1
+	{
+		private DateTime _birthdate;
+
+		public DateTime Birthdate
+		{
+			get { return _birthdate; }
+			set { _birthdate = value; }
+		}
+	}
+
 }

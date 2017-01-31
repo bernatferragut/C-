@@ -9,8 +9,8 @@ namespace Props
 
 	public class Person2
 	{
-		public DateTime Birthdate { get; set; } //  internally creates a private field and getters and setters 
-
+		public DateTime Birthdate { get; private set; } // internally creates a private field and getters and setters 
+														// when private is read only
 		public int Age
 		{
 			get //  we include some logic cause years are based on birthdate
@@ -20,7 +20,12 @@ namespace Props
 				return years;
 			}
 		}
-	
+
+		public Person2(DateTime birthdate)
+		{
+			Birthdate = birthdate;
+		}
+
 	}
 
 }

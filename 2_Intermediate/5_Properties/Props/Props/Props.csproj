@@ -40,6 +40,7 @@
     <Compile Include="Person2.cs" />
     <Compile Include="Person1.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Person3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

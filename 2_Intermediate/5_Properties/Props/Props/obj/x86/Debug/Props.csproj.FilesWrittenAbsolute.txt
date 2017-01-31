@@ -1,0 +1,6 @@
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/bin/Debug/Props.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/bin/Debug/Props.exe
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/obj/x86/Debug/Props.exe
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/obj/x86/Debug/Props.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/5_Properties/Props/Props/bin/Debug/geschikt.dll

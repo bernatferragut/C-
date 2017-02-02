@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Indexers
 {
 
-	public class HttpCookie
+	public class HttpCookie // Dictionary wrapper
 	{
 		private readonly Dictionary<string, string> _dicionary;
 
@@ -17,6 +17,12 @@ namespace Indexers
 		{
 			get { return _dicionary[key]; }
 			set { _dicionary[key] = value; }
+		}
+
+		public DateTime Expiry
+		{
+			get;
+			set;
 		}
 	}
 }

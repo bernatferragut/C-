@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{CCD854C4-C10A-4E72-824F-43DC6C8BC3A4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Indexers/HttpCookie.cs">
     <Files>
-      <File FileName="Indexers/Program.cs" Line="13" Column="3" />
-      <File FileName="Indexers/HttpCookie.cs" Line="13" Column="48" />
+      <File FileName="Indexers/Program.cs" Line="14" Column="38" />
+      <File FileName="Indexers/HttpCookie.cs" Line="22" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

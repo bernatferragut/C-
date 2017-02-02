@@ -13,8 +13,13 @@ namespace StopWatch
 
 			var myStopWatch = new StopWatch();
 
-			Console.WriteLine("Timer: " + myStopWatch._time);
+			myStopWatch.Play();
+			myStopWatch.Stop();
 
+			// var timePassed = Convert.ToString( myStopWatch.ShowTime()); // Op 1
+			var timePassed = TimeSpan.FromSeconds(myStopWatch.ShowTime()); // Op 2
+
+			Console.WriteLine("Timer: " + timePassed);
 		}
 	}
 }

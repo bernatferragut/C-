@@ -6,9 +6,10 @@ namespace StopWatch
 
 	public class StopWatch
 	{
+		//Params
 		public Timer _time{ get; set;} // PROP
 
-
+		//Metods
 		public void Play() // MTHD1
 		{
 			_time.Start();

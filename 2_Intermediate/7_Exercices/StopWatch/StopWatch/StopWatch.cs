@@ -6,26 +6,27 @@ namespace StopWatch
 
 	public class StopWatch
 	{
-		public Timer _time{ get; private set;} // PROP
+		public Timer _time{ get; set;} // PROP
 
-		public StopWatch(Timer Time) // CTOR
+
+		public void Play() // MTHD1
 		{
-			this._time = Time;
+			_time.Start();
 		}
 
-		public Timer Play() // MTHD1
+		public void  Stop() // MTHD2
 		{
-			return _time.Start();
+			_time.Stop();
 		}
 
-		public Timer Stop() // MTHD2
+		public void ReStart() // MTHD3
 		{
-			return _time.Stop();
+			_time.BeginInit();
 		}
 
-		public Timer ReStart() // MTHD3
+		public double Intervalo()
 		{
-			return _time.AutoReset();
+			return _time.Interval;
 		}
 	}
 }

@@ -8,7 +8,10 @@ namespace Indexers
 		{
 			// Indexers
 			// If you have a class that has a structure like Array, List or dictionary
-			Console.WriteLine("Indexers");
+
+			var cookie = new HttpCookie();
+			cookie["name"] = "Bernat";
+			Console.WriteLine(cookie["name"]);
 		}
 	}
 }

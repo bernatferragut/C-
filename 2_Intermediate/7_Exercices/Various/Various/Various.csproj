@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{8F226A75-1B07-4E27-BFE4-4C2F2CB337B4}</ProjectGuid>
+    <ProjectGuid>{5C658F21-6450-4DEC-BCE5-8F495BB63B37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StopWatch</RootNamespace>
-    <AssemblyName>StopWatch</AssemblyName>
+    <RootNamespace>Various</RootNamespace>
+    <AssemblyName>Various</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,7 +34,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StopWatch.cs" />
+    <Compile Include="SW2.cs" />
+    <Compile Include="StackOverflow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

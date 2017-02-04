@@ -11,6 +11,8 @@ namespace Various
 			mySW.Start();
 
 			// SO instance creaion
+			var mySO = new StackOverflow(Message);
+			mySO.DeleteMessge(Message);
 		}
 	}
 }

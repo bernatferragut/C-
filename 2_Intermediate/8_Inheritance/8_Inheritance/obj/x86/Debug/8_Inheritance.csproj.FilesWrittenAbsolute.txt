@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/2_Intermediate/8_Inheritance/8_Inheritance/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/8_Inheritance/8_Inheritance/bin/Debug/8_Inheritance.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/8_Inheritance/8_Inheritance/bin/Debug/8_Inheritance.exe
+/Users/bernatferragut/C#/2_Intermediate/8_Inheritance/8_Inheritance/obj/x86/Debug/8_Inheritance.exe
+/Users/bernatferragut/C#/2_Intermediate/8_Inheritance/8_Inheritance/obj/x86/Debug/8_Inheritance.exe.mdb

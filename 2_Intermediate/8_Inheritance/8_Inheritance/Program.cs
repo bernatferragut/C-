@@ -11,7 +11,13 @@ namespace _Inheritance
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			var text = new Text();
+
+			// We inherited from Text Class AND from PresentationObject and the Main Object
+			text.Width = 100;
+			text.Hieght = 50;
+			text.Copy();
 		}
+
 	}
 }

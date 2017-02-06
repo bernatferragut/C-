@@ -9,4 +9,11 @@ namespace _Inheritance
 			Console.WriteLine("Hello World!");
 		}
 	}
+
+	// Inheritamce 'IS A' relationship - Common 'behaviours' and 'porperties' are inherited
+	// Code reuse
+	// Polymorphism
+	// Parent or Super Class - vs - Child or Sub Class
+
+
 }

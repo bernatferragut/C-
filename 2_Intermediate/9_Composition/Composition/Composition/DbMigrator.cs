@@ -10,7 +10,7 @@ namespace Composition
 
 	public class DbMigrator
 	{
-		private readonly Logger _logger;
+		private readonly Logger _logger; // We pass the class as a private field
 
 		// ctor
 

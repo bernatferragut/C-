@@ -15,22 +15,4 @@ namespace Composition
 		}
 	}
 
-	public class DbMigrator
-	{
-		private readonly Logger _logger;
-
-		// ctor
-
-		public DbMigrator(Logger logger)
-		{
-			this._logger = logger;
-		}
-
-		// Method
-
-		public void Migrate()
-		{
-			_logger.Log("We are migrating...");
-		}
-	}
 }

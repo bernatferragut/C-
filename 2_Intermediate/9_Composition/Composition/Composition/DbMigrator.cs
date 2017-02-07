@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 // HAS A relationship ( Car has an engine )
 // Flexibility
@@ -7,13 +7,6 @@
 
 namespace Composition
 {
-	class MainClass
-	{
-		public static void Main(string[] args)
-		{
-			// Console.WriteLine("Hello World!");
-		}
-	}
 
 	public class DbMigrator
 	{

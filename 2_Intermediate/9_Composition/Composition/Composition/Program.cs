@@ -12,6 +12,15 @@ namespace Composition
 		public static void Main(string[] args)
 		{
 			// Console.WriteLine("Hello World!");
+
+			var dbMigrator = new DbMigrator( new Logger()); //  Technique 1 We pass a new object
+
+			var logger = new Logger();
+			var myInstaller = new Installer(logger);
+
+			dbMigrator.Migrate();
+
+			myInstaller.Install();
 		}
 	}
 

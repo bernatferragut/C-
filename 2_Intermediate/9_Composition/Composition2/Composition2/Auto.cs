@@ -1,5 +1,4 @@
-﻿using System;
-
+using System;
 
 // Favour Composition over Inheritance
 
@@ -14,18 +13,19 @@
 //1- We get great flexibility
 //2- Eventually loose coupling 
 
-
 namespace Composition2
 {
-	class MainClass
-	{
-		public static void Main(string[] args)
-		{
-			var carro1 = new CarA(new Auto());
-			carro1.SpeedA();
 
-			var carro3 = new CarB(new Auto());
-			carro3.SpeedB();
+	public class Auto
+	{
+		public void Start()
+		{
+			Console.WriteLine("Engine Started");
+		}
+
+		public void Stop()
+		{
+			Console.WriteLine("Engine Stopped");
 		}
 	}
 }

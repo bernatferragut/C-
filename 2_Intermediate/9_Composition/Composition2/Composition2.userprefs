@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{C7D0E584-4277-4616-A149-DDD12B0BA2FC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Composition2/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Composition2/CarA.cs">
     <Files>
-      <File FileName="Composition2/Program.cs" Line="11" Column="3" />
+      <File FileName="Composition2/Program.cs" Line="26" Column="3" />
+      <File FileName="Composition2/CarA.cs" Line="1" Column="1" />
+      <File FileName="Composition2/CarB.cs" Line="1" Column="1" />
+      <File FileName="Composition2/Auto.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.Composition PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Composition/Installer.cs">
     <Files>
-      <File FileName="Composition/Program.cs" Line="16" Column="3" />
+      <File FileName="Composition/Program.cs" Line="23" Column="26" />
       <File FileName="Composition/Logger.cs" Line="18" Column="2" />
       <File FileName="Composition/DbMigrator.cs" Line="13" Column="75" />
-      <File FileName="Composition/Installer.cs" Line="16" Column="4" />
+      <File FileName="Composition/Installer.cs" Line="8" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

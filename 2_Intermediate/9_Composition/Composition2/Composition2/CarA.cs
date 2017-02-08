@@ -25,6 +25,16 @@ namespace Composition2
 			this._auto = auto;
 		}
 
+		public void Starter()
+		{
+			_auto.Start();
+		}
+
+		public void Stopper()
+		{
+			_auto.Stop();
+		}
+
 		public void SpeedA()
 		{
 			Console.WriteLine("I'm runnning at super speed A");

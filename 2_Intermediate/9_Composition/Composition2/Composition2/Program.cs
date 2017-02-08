@@ -23,9 +23,11 @@ namespace Composition2
 		{
 			var carro1 = new CarA(new Auto());
 			carro1.SpeedA();
+			carro1.Starter();
 
 			var carro3 = new CarB(new Auto());
 			carro3.SpeedB();
+			carro3.Stopper();
 		}
 	}
 }

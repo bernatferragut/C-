@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{9954C021-A28E-4BAC-8798-3B6B641079AE}|Default">
   <MonoDevelop.Ide.ItemProperties.Composition PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Composition/Installer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Composition/DbMigrator.cs">
     <Files>
       <File FileName="Composition/Program.cs" Line="23" Column="26" />
-      <File FileName="Composition/Logger.cs" Line="18" Column="2" />
+      <File FileName="Composition/Logger.cs" Line="13" Column="16" />
       <File FileName="Composition/DbMigrator.cs" Line="13" Column="75" />
       <File FileName="Composition/Installer.cs" Line="8" Column="22" />
     </Files>

@@ -11,36 +11,11 @@ namespace AccessModifiers
 		}
 	}
 
-	public class Customer
+	public class GoldCustomer : Customer // We inherit from Customer
 	{
-		public int Id
+		public void OfferVoucher()
 		{
-			get;
-			set;
-		}
-
-		public string Name
-		{
-			get;
-			set;
-		}
-
-		public void Promote() //  should be encapsulated
-		{
-			var rating = CalculateRating();
-			if (rating == 0)
-			{
-				Console.WriteLine("Promoted to Level 1");
-			}
-			else
-			{
-				Console.WriteLine("Promoted to Level 2");
-			}
-		}
-
-		public int CalculateRating() // this method should not be available outside
-		{
-			return 0;
+			Console.WriteLine(" A Voucher has been Offered! ");
 		}
 	}
 }

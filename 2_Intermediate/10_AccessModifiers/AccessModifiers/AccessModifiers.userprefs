@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{07F9532E-559D-42D3-99B0-CC80441392AA}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AccessModifiers/Program.cs">
     <Files>
-      <File FileName="AccessModifiers/Program.cs" Line="1" Column="1" />
+      <File FileName="AccessModifiers/Program.cs" Line="13" Column="2" />
+      <File FileName="AccessModifiers/Customer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

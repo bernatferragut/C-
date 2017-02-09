@@ -23,7 +23,7 @@ namespace Composition
 
 		public void Migrate()
 		{
-			_logger.Log("We are migrating...");
+			_logger.Log("We are migrating..."); // Is using the method Log
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace AccessModifiers
+namespace Amazon
 {
 
 	public class Customer
@@ -29,6 +29,7 @@ namespace AccessModifiers
 				Console.WriteLine("Promoted to Level 2");
 			}
 		}
+		// avoid Protected
 
 		private int CalculateRating() // this method should not be available outside > private // not use protected
 		{

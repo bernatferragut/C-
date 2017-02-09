@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{07F9532E-559D-42D3-99B0-CC80441392AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{AE97CFAA-29BA-43A6-A4C1-A2E5192A7901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{07F9532E-559D-42D3-99B0-CC80441392AA}.Debug|x86.Build.0 = Debug|x86
 		{07F9532E-559D-42D3-99B0-CC80441392AA}.Release|x86.ActiveCfg = Release|x86
 		{07F9532E-559D-42D3-99B0-CC80441392AA}.Release|x86.Build.0 = Release|x86
+		{AE97CFAA-29BA-43A6-A4C1-A2E5192A7901}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AE97CFAA-29BA-43A6-A4C1-A2E5192A7901}.Debug|x86.Build.0 = Debug|Any CPU
+		{AE97CFAA-29BA-43A6-A4C1-A2E5192A7901}.Release|x86.ActiveCfg = Release|Any CPU
+		{AE97CFAA-29BA-43A6-A4C1-A2E5192A7901}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

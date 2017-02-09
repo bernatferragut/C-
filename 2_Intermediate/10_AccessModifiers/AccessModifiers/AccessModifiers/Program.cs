@@ -11,11 +11,12 @@ namespace AccessModifiers
 		}
 	}
 
-	public class GoldCustomer : Customer // We inherit from Customer
+	public class GoldCustomer : Customer
 	{
 		public void OfferVoucher()
 		{
 			Console.WriteLine(" A Voucher has been Offered! ");
+			this.Promote();
 		}
 	}
 }

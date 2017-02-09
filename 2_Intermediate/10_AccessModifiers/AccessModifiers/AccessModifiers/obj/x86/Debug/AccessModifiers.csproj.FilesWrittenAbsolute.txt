@@ -1,0 +1,3 @@
+/Users/bernatferragut/C#/2_Intermediate/10_AccessModifiers/AccessModifiers/AccessModifiers/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/10_AccessModifiers/AccessModifiers/AccessModifiers/bin/Debug/Amazon.dll
+/Users/bernatferragut/C#/2_Intermediate/10_AccessModifiers/AccessModifiers/AccessModifiers/bin/Debug/Amazon.dll.mdb

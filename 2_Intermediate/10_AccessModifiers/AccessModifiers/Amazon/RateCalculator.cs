@@ -1,5 +1,7 @@
 ﻿using System;
-namespace Amazon
+
+
+namespace AccessModifiers
 {
 	public class Ratecalculator
 	{

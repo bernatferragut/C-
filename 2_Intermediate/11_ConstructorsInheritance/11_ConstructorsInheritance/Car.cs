@@ -13,5 +13,13 @@ namespace _ConstructorsInheritance
 		{
 			Console.WriteLine("Car is being initialized");
 		}
+
+		readonly string _registrationNumber;
+
+		public Car(string RegistrationNumber)
+			: base ( string RegistrationNumber)
+		{
+			this._registrationNumber = RegistrationNumber;
+		}
 	}
 }

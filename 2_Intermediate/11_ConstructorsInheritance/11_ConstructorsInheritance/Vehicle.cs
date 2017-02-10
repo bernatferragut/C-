@@ -9,9 +9,19 @@ namespace _ConstructorsInheritance
 
 	public class Vehicle
 	{
-		public Vehicle()
+
+		readonly string _registrationNumber;
+
+		//public Vehicle()
+		//{
+		//	Console.WriteLine("Vehicle is being initialized");
+		//}
+
+		public Vehicle(string RegistrationNumber)
 		{
-			Console.WriteLine("Vehicle is being initialized");
+			this._registrationNumber = RegistrationNumber;
+
+			Console.WriteLine("The Registration Number is: {0}", RegistrationNumber);
 		}
 	}
 	

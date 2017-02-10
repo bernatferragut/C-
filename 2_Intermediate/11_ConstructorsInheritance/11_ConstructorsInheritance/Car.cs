@@ -9,17 +9,10 @@ namespace _ConstructorsInheritance
 
 	public class Car : Vehicle
 	{
-		public Car()
+		public Car(string RegistrationNumber) // We pass this parameter to the Vehicle base class
+			:base(RegistrationNumber)
 		{
 			Console.WriteLine("Car is being initialized");
 		}
 
-		readonly string _registrationNumber;
-
-		public Car(string RegistrationNumber)
-			: base ( string RegistrationNumber)
-		{
-			this._registrationNumber = RegistrationNumber;
-		}
-	}
 }

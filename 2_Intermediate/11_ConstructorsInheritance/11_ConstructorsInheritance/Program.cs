@@ -10,7 +10,7 @@ namespace _ConstructorsInheritance
 	{
 		public static void Main(string[] args)
 		{
-			var car = new Car();
+			var car = new Car("ABC123");
 		}
 	}
 }

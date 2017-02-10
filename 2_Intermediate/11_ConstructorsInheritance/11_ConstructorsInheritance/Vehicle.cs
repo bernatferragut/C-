@@ -21,7 +21,7 @@ namespace _ConstructorsInheritance
 		{
 			this._registrationNumber = RegistrationNumber;
 
-			Console.WriteLine("The Registration Number is: {0}", RegistrationNumber);
+			Console.WriteLine("The Vehicle is being Initialized: {0}", RegistrationNumber);
 		}
 	}
 	

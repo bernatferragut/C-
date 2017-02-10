@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _ConstructorsInheritance
 {
@@ -7,12 +7,11 @@ namespace _ConstructorsInheritance
 	// 1. Base class constructors always executed first
 	// 2. Base class construcors are not inherited
 
-	class MainClass
+	public class Car : Vehicle
 	{
-		public static void Main(string[] args)
+		public Car()
 		{
-			var car = new Car();
-
+			Console.WriteLine("Car is being initialized");
 		}
 	}
 }

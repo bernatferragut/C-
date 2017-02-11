@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{546674B0-1B08-4332-AB44-91E4ED4C532E}|Default">
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Stack.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="29" Column="67" />
-      <File FileName="Exercices/Stack.cs" Line="1" Column="1" />
+      <File FileName="Exercices/Program.cs" Line="10" Column="18" />
+      <File FileName="Exercices/Stack.cs" Line="35" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

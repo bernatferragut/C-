@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Exercices
 {
@@ -24,21 +25,34 @@ namespace Exercices
 
 	public class Stack
 	{
+		//prop
+		public List<object> myList { get; set; }
+
+		//ctor
+		public Stack()
+		{
+			//this.myList = myList;
+			//var _list = new List<object>();
+		}
+
 		//Methods
 		public void Push(object obj)
 		{
-			Console.WriteLine(" Pushin Element In ");
+			//Console.WriteLine(" Pushin Element In ");
+			myList.Add(obj);
 		}
 
 		public object Pop()
 		{
-			Console.WriteLine(" Poping Element Out ");
-			return 1;
+			//Console.WriteLine(" Poping Element Out ");
+			var removed = myList.Remove(myList.Count - 1);
+			return removed;
 		}
 
 		public void Clear()
 		{
-			Console.WriteLine(" Clear the whole List ");
+			//Console.WriteLine(" Clear the whole List ");
+			myList.Clear();
 		}
 	}
 }

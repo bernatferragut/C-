@@ -7,7 +7,7 @@ namespace Exercices
 		public static void Main(string[] args)
 		{
 			var stack = new Stack();
-			stack.Push();
+			stack.Push(2);
 			stack.Pop();
 			stack.Clear();
 		}

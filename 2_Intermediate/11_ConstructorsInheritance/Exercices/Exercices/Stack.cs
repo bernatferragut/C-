@@ -25,14 +25,15 @@ namespace Exercices
 	public class Stack
 	{
 		//Methods
-		public void Push(Object object)
+		public void Push(object obj)
 		{
 			Console.WriteLine(" Pushin Element In ");
 		}
 
-		public void Pop()
+		public object Pop()
 		{
 			Console.WriteLine(" Poping Element Out ");
+			return 1;
 		}
 
 		public void Clear()
@@ -40,5 +41,4 @@ namespace Exercices
 			Console.WriteLine(" Clear the whole List ");
 		}
 	}
-
 }

@@ -32,7 +32,6 @@ namespace Exercices
 		//Methods
 		public void Push(object obj)
 		{
-
 			if (myList.Count == null)
 			{
 				//throw Exception("Invalid Operation Exception");

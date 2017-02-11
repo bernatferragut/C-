@@ -26,24 +26,29 @@ namespace Exercices
 	public class Stack
 	{
 		//prop
-		public List<object> myList { get; set; }
+		public List<object> myList = new List<object>();
 
-		//ctor
-		public Stack()
-		{
-			//this.myList = myList;
-			//var _list = new List<object>();
-		}
 
 		//Methods
 		public void Push(object obj)
 		{
+
+			if (myList.Count == null)
+			{
+				//throw Exception("Invalid Operation Exception");
+				Console.WriteLine("Invalid Operation Exception");
+			}
 			//Console.WriteLine(" Pushin Element In ");
-			myList.Add(obj);
+			myList.Add(Convert.ToInt32(obj));
 		}
 
 		public object Pop()
 		{
+			if (myList.Count == 0)
+			{
+				//throw Exception("Invalid Operation Exception");
+				Console.WriteLine("Invalid Operation Exception");
+			}		
 			//Console.WriteLine(" Poping Element Out ");
 			var removed = myList.Remove(myList.Count - 1);
 			return removed;

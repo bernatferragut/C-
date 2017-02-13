@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Stack.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="11" Column="17" />
-      <File FileName="Exercices/Stack.cs" Line="40" Column="16" />
+      <File FileName="Exercices/Program.cs" Line="27" Column="22" />
+      <File FileName="Exercices/Stack.cs" Line="20" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

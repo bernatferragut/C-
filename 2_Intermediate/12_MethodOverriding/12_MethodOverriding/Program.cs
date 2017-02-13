@@ -3,6 +3,7 @@
 // We need to encapsulate data and behaviour in one Class
 
 using System;
+using System.Collections.Generic;
 
 namespace _MethodOverriding
 {
@@ -28,19 +29,30 @@ namespace _MethodOverriding
 
 	public class Circle : Shape
 	{
-		
+		public override void Draw()
+		{
+			//base.Draw();
+			Console.WriteLine(" Draw a Circle");
+		}
 	}
 
 	public class Rectangle : Shape
 	{
-		
+		public override void Draw()
+		{
+			//base.Draw();
+			Console.WriteLine(" Draw a Rectangle");
+		}
 	}
 
 	public class Canvas
 	{
 		public void DrawShapes(List<Shape> shapes)
 		{
-			
+			foreach (var shape in shapes)
+			{
+				shape.Draw();
+			}
 		}
 	}
 }

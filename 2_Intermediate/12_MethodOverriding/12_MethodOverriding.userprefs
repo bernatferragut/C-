@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{344509AA-CD7B-47C4-BFA2-8C3F6A3A0794}|Default">
+  <MonoDevelop.Ide.ItemProperties.12__MethodOverriding PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="12_MethodOverriding/Program.cs">
+    <Files>
+      <File FileName="12_MethodOverriding/Program.cs" Line="9" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

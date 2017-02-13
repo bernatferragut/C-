@@ -8,7 +8,7 @@ namespace _MethodOverriding
 		public override void Draw()
 		{
 			//base.Draw();
-			Console.WriteLine(" Draw a Circle");
+			Console.WriteLine("Draw a Circle");
 		}
 	}
 }

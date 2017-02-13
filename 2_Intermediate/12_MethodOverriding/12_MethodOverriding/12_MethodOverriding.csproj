@@ -38,6 +38,7 @@
     <Compile Include="Rectangle.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="triangle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

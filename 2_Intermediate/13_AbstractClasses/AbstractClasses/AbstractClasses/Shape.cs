@@ -8,5 +8,15 @@ namespace AbstractClasses
 		public int Height { get; set; }
 
 		public abstract void Draw();
+
+		public void Copy()
+		{
+			Console.WriteLine("Copy Shape into ClipBoard");
+		}
+
+		public void Select()
+		{
+			Console.WriteLine("Select the Shape");
+		}
 	}
 }

@@ -2,11 +2,11 @@ using System;
 
 namespace AbstractClasses
 {
-	public class Circle : Shape
+	public class Rectangle : Shape
 	{
 		public override void Draw()
 		{
-			Console.WriteLine("Draw a circle");
+			Console.WriteLine("Draw a Rectangle");
 		}
 	}
 }

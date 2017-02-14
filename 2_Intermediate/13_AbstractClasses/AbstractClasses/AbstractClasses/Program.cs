@@ -18,14 +18,6 @@ namespace AbstractClasses
 		}
 	}
 
-	public class Rectangle : Shape
-	{
-		public void Draw()
-		{
-			Console.WriteLine("Draw a Rectangle");
-		}
-	}
-
 	//// OLD EXAMPLE
 	//public class Shape
 	//{

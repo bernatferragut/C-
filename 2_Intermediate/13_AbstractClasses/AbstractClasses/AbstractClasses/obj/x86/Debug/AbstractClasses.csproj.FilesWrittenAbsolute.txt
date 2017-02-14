@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/2_Intermediate/13_AbstractClasses/AbstractClasses/AbstractClasses/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/13_AbstractClasses/AbstractClasses/AbstractClasses/bin/Debug/AbstractClasses.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/13_AbstractClasses/AbstractClasses/AbstractClasses/bin/Debug/AbstractClasses.exe
+/Users/bernatferragut/C#/2_Intermediate/13_AbstractClasses/AbstractClasses/AbstractClasses/obj/x86/Debug/AbstractClasses.exe
+/Users/bernatferragut/C#/2_Intermediate/13_AbstractClasses/AbstractClasses/AbstractClasses/obj/x86/Debug/AbstractClasses.exe.mdb

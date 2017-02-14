@@ -1,8 +1,21 @@
 ﻿<Properties StartupConfiguration="{9DFE18EE-CA7A-46C0-B68D-22C1748797B4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractClasses/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractClasses/Circle.cs">
     <Files>
-      <File FileName="AbstractClasses/Program.cs" Line="1" Column="1" />
+      <File FileName="AbstractClasses/Program.cs" Line="16" Column="2" />
+      <File FileName="AbstractClasses/Shape.cs" Line="20" Column="2" />
+      <File FileName="AbstractClasses/Circle.cs" Line="36" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AbstractClasses" expanded="True">
+            <Node name="AbstractClasses" expanded="True">
+              <Node name="Circle.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

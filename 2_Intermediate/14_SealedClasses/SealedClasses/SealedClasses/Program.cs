@@ -10,7 +10,7 @@ namespace SealedClasses
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			// Code
 		}
 	}
 
@@ -19,6 +19,7 @@ namespace SealedClasses
 	// Sealed Classes are slightly faster because of run-time optimizations
 	// Hardly ever used
 	// As a guideline do not use it
+
 	public sealed class Circle : Shape
 	{
 		public override void Draw();

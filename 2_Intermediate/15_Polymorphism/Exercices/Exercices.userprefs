@@ -1,7 +1,8 @@
-﻿<Properties StartupConfiguration="{9A5A270A-3D67-4F10-89CE-2B22E8FD7EDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SealedClasses/Program.cs">
+﻿<Properties StartupConfiguration="{14ECDCA2-F4A2-4CA3-B286-7156D5883ED1}|Default">
+  <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Program.cs">
     <Files>
-      <File FileName="SealedClasses/Program.cs" Line="23" Column="9" />
+      <File FileName="Exercices/Program.cs" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -9,6 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SealedClasses PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

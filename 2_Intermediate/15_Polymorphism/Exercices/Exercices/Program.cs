@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Exercices
 {
@@ -18,8 +20,23 @@ namespace Exercices
 	// 4. They may have a Timeout attribute
 	// Base Class: DbConnection
 	// Has 2 Attributes: 
-	// A. String ConnectionString - Has to be passe in the ctor class + Null or empty scenarios + throw an exception
+	// A. String ConnectionString - Has to be passed in the ctor class + Null or empty scenarios + throw an exception
 	// B. TimeSpan TimeOut
 	// C. 2 Methods: OpenConnection + CloseConnection ( Abstract ). Implementation to derived classes
 	// Derived Classes: SqlConnection + OracleConnection ( Do implementation with CW )
+
+	public abstract class DbConnection
+	{
+		public String ConnectionString { get;set; }
+		private TimeSpan TimeOut { get; set; }
+
+		public DbConnection(String ConnString)
+		{
+			this.ConnectionString = ConnString;
+		}
+
+		public abstract void OpenConnection();
+		public abstract void CloseConnection();
+	}
+
 }

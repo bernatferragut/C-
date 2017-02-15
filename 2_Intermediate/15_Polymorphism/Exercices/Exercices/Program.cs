@@ -8,7 +8,7 @@ namespace Exercices
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			var dbconnection = new DbConnection();
 		}
 	}
 
@@ -27,8 +27,10 @@ namespace Exercices
 
 	public abstract class DbConnection
 	{
-		public String ConnectionString { get;set; }
+		public String ConnectionString { get; set; }
 		private TimeSpan TimeOut { get; set; }
+
+		public DbConnection() { }
 
 		public DbConnection(String ConnString)
 		{
@@ -39,4 +41,29 @@ namespace Exercices
 		public abstract void CloseConnection();
 	}
 
+	public class SqlConnection : DbConnection
+	{
+		public override void CloseConnection()
+		{
+			Console.WriteLine("Closing Connection...");
+		}
+
+		public override void OpenConnection()
+		{
+			Console.WriteLine("Openning Connection...");
+		}
+	}
+
+	public class OracleConnection : DbConnection
+	{
+		public override void CloseConnection()
+		{
+			Console.WriteLine("Closing Connection...");
+		}
+
+		public override void OpenConnection()
+		{
+			Console.WriteLine("Openning Connection...");
+		}
+	}
 }

@@ -5,21 +5,19 @@ using System.Collections.Generic;
 
 namespace Exercices
 {
-
 	public abstract class DbConnection
 	{
-		public String ConnectionString { get; set; }
+		public string ConnectionString { get; set; }
 		private TimeSpan TimeOut { get; set; }
 
 		public DbConnection(){}
 
-		public DbConnection(string ConnString)
+		public DbConnection(string connectionString)
 		{
-			this.ConnectionString = ConnString;
+			this.ConnectionString = connectionString;
 		}
 
 		public abstract void OpenConnection();
 		public abstract void CloseConnection();
 	}
-	
 }

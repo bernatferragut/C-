@@ -8,6 +8,8 @@ namespace Exercices
 
 	public class SqlConnection : DbConnection
 	{
+		public SqlConnection(string connectionString) : base (connectionString) { } // new ctor
+
 		public override void OpenConnection()
 		{
 			Console.WriteLine("Openning Connection...");

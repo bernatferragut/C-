@@ -9,10 +9,12 @@ namespace Exercices
 	{
 		public static void Main(string[] args)
 		{
-			var mySqlConnection = new SqlConnection();
+			string message = " My Message ";
+
+			var mySqlConnection = new SqlConnection(message);
 			mySqlConnection.OpenConnection();
 
-			var myOracleConnection = new OracleConnection();
+			var myOracleConnection = new OracleConnection(message);
 			myOracleConnection.OpenConnection();
 		}
 	}

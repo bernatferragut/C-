@@ -21,7 +21,6 @@ namespace Exercices
 	public class DbCommand
 	{
 		private DbConnection _dbConnection; // prop
-
 		public DbConnection dbConnection // prop logic
 		{
 			get
@@ -38,9 +37,27 @@ namespace Exercices
 			}
 		}
 
-		public DbCommand(DbConnection dbConnection)
+		private string _instruction; // prop
+		public string Instruction // prop logic
+		{
+			get
+			{
+				return _instruction;
+			}
+			set
+			{
+				if (string.IsNullOrEmpty(Instruction))
+				{
+					throw new NullReferenceException("Null Reference Exception");
+				}
+				_instruction = value;
+			}
+		}
+
+		public DbCommand(DbConnection dbConnection, string Instruction) // ctor
 		{
 			_dbConnection = dbConnection;
+			_instruction = Instruction;
 		}
 	}
 

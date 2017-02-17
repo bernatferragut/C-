@@ -9,12 +9,12 @@ namespace Exercices
 
 		public override void OpenConnection()
 		{
-			Console.WriteLine("Openning Connection...");
+			Console.WriteLine("Openning Oracle Connection...");
 		}
 
 		public override void CloseConnection()
 		{
-			Console.WriteLine("Closing Connection...");
+			Console.WriteLine("Closing Oracle Connection...");
 		}
 	}
 }

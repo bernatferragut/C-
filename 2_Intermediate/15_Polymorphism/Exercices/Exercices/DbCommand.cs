@@ -49,7 +49,7 @@ namespace Exercices
 			// Open the connection > Inherited from Connection Type
 
 			// Run the instruction 
-			Console.WriteLine(_instruction);
+			Console.WriteLine(Instruction);
 
 			// Close the connection >  Inherited from Connection Type
 

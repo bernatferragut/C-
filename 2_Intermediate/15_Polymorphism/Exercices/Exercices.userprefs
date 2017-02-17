@@ -1,12 +1,24 @@
 ﻿<Properties StartupConfiguration="{14ECDCA2-F4A2-4CA3-B286-7156D5883ED1}|Default">
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/DbConnection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/DbCommand.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="1" Column="14" />
-      <File FileName="Exercices/DbConnection.cs" Line="22" Column="30" />
-      <File FileName="Exercices/SqlConnection.cs" Line="1" Column="14" />
+      <File FileName="Exercices/Program.cs" Line="17" Column="3" />
+      <File FileName="Exercices/DbCommand.cs" Line="5" Column="2" />
+      <File FileName="Exercices/DbConnection.cs" Line="32" Column="32" />
+      <File FileName="Exercices/SqlConnection.cs" Line="14" Column="26" />
       <File FileName="Exercices/OracleConnection.cs" Line="11" Column="4" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exercices" expanded="True">
+            <Node name="Exercices" expanded="True">
+              <Node name="DbCommand.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

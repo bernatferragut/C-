@@ -1,33 +1,58 @@
 using System;
-using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Exercices
 {
-
 	public class DbCommand
 	{
-		public DbConnection ConnectionN
+		private DbConnection _dbConnection; // prop
+		public DbConnection dbConnection // prop logic
 		{
-			get 
+			get
 			{
-				return ConnectionN; 
+				return _dbConnection;
 			}
-
 			set
 			{
-				if (ConnectionN == null)
+				if (dbConnection == null)
 				{
-					throw new NullReferenceException("None Connection passed");
+					throw new NullReferenceException("The string is Null");
 				}
-
-				ConnectionN = value;
+				_dbConnection = value;
 			}
 		}
 
-		public DbCommand(DbConnection ConnectionN) { }
+		private string _instruction; // prop
+		public string Instruction // prop logic
+		{
+			get
+			{
+				return _instruction;
+			}
+			set
+			{
+				if (string.IsNullOrEmpty(Instruction))
+				{
+					throw new NullReferenceException("Null Reference Exception");
+				}
+				_instruction = value;
+			}
+		}
+
+		public DbCommand(DbConnection dbConnection, string Instruction) // ctor
+		{
+			_dbConnection = dbConnection;
+			_instruction = Instruction;
+		}
+
+		public void Execute()
+		{
+			// Open the connection > Inherited from Connection Type
+
+			// Run the instruction 
+			Console.WriteLine(_instruction);
+
+			// Close the connection >  Inherited from Connection Type
+
+		}
 	}
-
-
 }

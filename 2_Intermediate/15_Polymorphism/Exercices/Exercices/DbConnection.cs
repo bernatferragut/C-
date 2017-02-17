@@ -25,7 +25,7 @@ namespace Exercices
 			}
 		}
 
-		DbConnection() { }  // ctor 1
+		protected DbConnection() { }  // ctor 1
 
 		protected DbConnection(string connectionString)  // ctor 2
 		{

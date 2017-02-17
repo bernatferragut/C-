@@ -38,7 +38,9 @@ namespace Exercices
 			}
 		}
 
-		public DbCommand(DbConnection dbConnection, string Instruction) // ctor
+		public DbCommand() { } // ctor 1
+
+		public DbCommand(DbConnection dbConnection, string Instruction) // ctor 2
 		{
 			_dbConnection = dbConnection;
 			_instruction = Instruction;

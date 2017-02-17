@@ -2,7 +2,6 @@ using System;
 
 namespace Exercices
 {
-
 	public class OracleConnection : DbConnection
 	{
 		public OracleConnection (string connectionString) : base(connectionString){ } // new ctor

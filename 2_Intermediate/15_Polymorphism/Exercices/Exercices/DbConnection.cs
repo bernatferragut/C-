@@ -4,35 +4,35 @@ namespace Exercices
 {
 	public abstract class DbConnection
 	{
-		private string _connectionString;
+		private TimeSpan TimeOut { get; set; } // prop
 
-		public string ConnectionString 
+		private string _connectionString; // prop
+
+		public string ConnectionString // prop logic
 		{
+			get
+			{
+				return _connectionString;
+			}
+
 			set
 			{
-				if (ConnectionString == null || ConnectionString.Length == 0)
+				if (string.IsNullOrEmpty(ConnectionString))
 				{
 					throw new NullReferenceException("The string is empty or null");
 				}
 				_connectionString = value;
 			}
-
-			get
-			{
-				return _connectionString;
-			}
 		}
 
-		private TimeSpan TimeOut { get; set; }
+		DbConnection() { }  // ctor 1
 
-		public DbConnection(){}
-
-		public DbConnection(string connectionString)
+		protected DbConnection(string connectionString)  // ctor 2
 		{
 			_connectionString = connectionString;
 		}
 
-		public abstract void OpenConnection();
-		public abstract void CloseConnection();
+		public abstract void OpenConnection(); // method 1
+		public abstract void CloseConnection(); // method 1
 	}
 }

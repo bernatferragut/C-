@@ -2,10 +2,9 @@ using System;
 
 namespace Exercices
 {
-
 	public class SqlConnection : DbConnection
 	{
-		public SqlConnection(string connectionString) : base (connectionString) { } // new ctor
+		public SqlConnection(string connectionString) : base (connectionString) { } // new ctor that inherits from base
 
 		public override void OpenConnection()
 		{
@@ -17,5 +16,4 @@ namespace Exercices
 			Console.WriteLine("Closing Connection...");
 		}
 	}
-	
 }

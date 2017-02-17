@@ -24,10 +24,10 @@ namespace Exercices
 			Console.WriteLine("#################");
 
 			var myDbCommandA = new DbCommand(mySqlConnection, sqlLanguage);
-			Console.WriteLine(myDbCommandA);
+			myDbCommandA.Execute();
 
 			var myDbCommandB = new DbCommand(myOracleConnection, oracleLanguage);
-			Console.WriteLine(myDbCommandB);
+			myDbCommandB.Execute();
 
 			Console.WriteLine("#################");
 		}

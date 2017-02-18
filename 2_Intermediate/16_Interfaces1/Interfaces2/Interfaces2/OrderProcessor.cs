@@ -16,7 +16,7 @@ namespace Interfaces2
 			if (order.IsShipped) // def programming
 				throw new InvalidOperationException("The order is already processed");
 			
-			order.Shipment = new Shipment; // object creation 
+			order.Shippment = new Shippment; // object creation 
 			{
 				Cost = _shippingCalculator.CalculatorShipping(order),
 				ShippingDate = DateTime.Today.AddDays(1)

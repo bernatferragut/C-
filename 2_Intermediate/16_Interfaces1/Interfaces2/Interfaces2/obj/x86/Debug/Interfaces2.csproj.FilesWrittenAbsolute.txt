@@ -1,0 +1,5 @@
+/Users/bernatferragut/C#/2_Intermediate/16_Interfaces1/Interfaces2/Interfaces2/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bernatferragut/C#/2_Intermediate/16_Interfaces1/Interfaces2/Interfaces2/bin/Debug/Interfaces2.exe.mdb
+/Users/bernatferragut/C#/2_Intermediate/16_Interfaces1/Interfaces2/Interfaces2/bin/Debug/Interfaces2.exe
+/Users/bernatferragut/C#/2_Intermediate/16_Interfaces1/Interfaces2/Interfaces2/obj/x86/Debug/Interfaces2.exe
+/Users/bernatferragut/C#/2_Intermediate/16_Interfaces1/Interfaces2/Interfaces2/obj/x86/Debug/Interfaces2.exe.mdb

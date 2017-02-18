@@ -4,11 +4,11 @@ namespace Interfaces2
 {
 	public class OrderProcessor
 	{
-		private readonly ShippingCalculator _shippingCalculator;
+		private readonly IShippingCalculator _shippingCalculator;
 
-		public OrderProcessor()
+		public OrderProcessor(IShippingCalculator shippingCalculator) // We are referencing an interface
 		{
-			_shippingCalculator = new ShippingCalculator();
+			_shippingCalculator = shippingCalculator;
 		}
 
 		public void Processor(Order order)

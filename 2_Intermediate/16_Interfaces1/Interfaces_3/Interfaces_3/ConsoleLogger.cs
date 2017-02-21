@@ -15,7 +15,7 @@ namespace Interfaces_3
 
 		public void LogInfo(string message)
 		{
-			Console.ForegroundColor = ConsoleColor.Green;
+			Console.ForegroundColor = ConsoleColor.Yellow;
 			Console.WriteLine(message);
 		}
 	}

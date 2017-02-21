@@ -9,6 +9,8 @@ namespace Interfaces_3
 		{
 			var dbMigrator = new DbMigrator(new ConsoleLogger());
 			dbMigrator.Migrate();
+
+			var dbMigrator2 = new DbMigrator(new FileLogger("/Users/bernatferragut/Desktop/log.info"));
 		}
 	}
 }

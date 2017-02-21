@@ -37,6 +37,7 @@
     <Compile Include="ILogger.cs" />
     <Compile Include="DbMigrator.cs" />
     <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="FileLogger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

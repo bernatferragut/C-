@@ -13,8 +13,9 @@ namespace Interfaces_3
 
 		public void Migrate()
 		{
-			Console.WriteLine("Migration started at {0}", DateTime.Now);
-			Console.WriteLine("Migration finished at {0}", DateTime.Now);
+			_logger.LogInfo("Migration started at {0}" + DateTime.Now);
+
+			_logger.LogError("Migration finished at {0}" + DateTime.Now);
 		}
 	}
 }

@@ -11,13 +11,4 @@ namespace Interfaces_3
 			Console.WriteLine("Hello World!");
 		}
 	}
-
-	public class DbMigrator
-	{
-		public void Migrate()
-		{
-			Console.WriteLine("Migration started at {0}", DateTime.Now);
-			Console.WriteLine("Migration finished at {0}", DateTime.Now);
-		}
-	}
 }

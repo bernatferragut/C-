@@ -6,6 +6,6 @@ namespace Interfaces5
 {
 	public class Mail
 	{
-		// Send some stuff
+		// This is the Mail
 	}
 }

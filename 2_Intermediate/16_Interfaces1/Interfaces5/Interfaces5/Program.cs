@@ -1,4 +1,5 @@
 ﻿// Interfaces and Polymorphism
+// OOP Open Close Principle >  Open for extension but Close for modification
 
 using System;
 

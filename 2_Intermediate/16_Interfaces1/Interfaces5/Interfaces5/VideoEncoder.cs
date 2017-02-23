@@ -18,5 +18,6 @@ namespace Interfaces5
 			// Video Logic
 			_mailService.Send(new Mail());
 		}
+
 	}
 }

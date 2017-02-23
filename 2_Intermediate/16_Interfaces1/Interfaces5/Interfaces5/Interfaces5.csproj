@@ -38,6 +38,8 @@
     <Compile Include="MailService.cs" />
     <Compile Include="Mail.cs" />
     <Compile Include="Video.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="INotificationChannel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

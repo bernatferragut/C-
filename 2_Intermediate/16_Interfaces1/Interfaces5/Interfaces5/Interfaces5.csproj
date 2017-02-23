@@ -40,6 +40,8 @@
     <Compile Include="Video.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="INotificationChannel.cs" />
+    <Compile Include="MailNotificationChannel.cs" />
+    <Compile Include="SmsNotificationchannel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

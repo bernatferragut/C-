@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{E92D67A4-8F0F-423D-ABEE-5FBF6F2E1ECB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces5/Message.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces5/SmsNotificationchannel.cs">
     <Files>
       <File FileName="Interfaces5/Program.cs" Line="4" Column="14" />
       <File FileName="Interfaces5/VideoEncoder.cs" Line="21" Column="3" />
-      <File FileName="Interfaces5/INotificationChannel.cs" Line="9" Column="1" />
-      <File FileName="Interfaces5/Message.cs" Line="1" Column="1" />
+      <File FileName="Interfaces5/INotificationChannel.cs" Line="7" Column="3" />
+      <File FileName="Interfaces5/MailNotificationChannel.cs" Line="9" Column="41" />
+      <File FileName="Interfaces5/SmsNotificationchannel.cs" Line="5" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Interfaces5" expanded="True">
             <Node name="Interfaces5" expanded="True">
-              <Node name="Message.cs" selected="True" />
+              <Node name="SmsNotificationchannel.cs" selected="True" />
             </Node>
           </Node>
         </State>

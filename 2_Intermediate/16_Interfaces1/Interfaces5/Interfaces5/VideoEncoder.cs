@@ -14,6 +14,11 @@ namespace Interfaces5
 			_notificationChannels = new List<INotificationChannel>();
 		}
 
+		public void RegisterNotificationChannel(INotificationChannel channel)
+		{
+			_notificationChannels.Add(channel);
+		}
+
 		public void Encode(Video video)
 		{
 			// Video Logic
@@ -22,11 +27,5 @@ namespace Interfaces5
 				channel.Send(new Message());
 
 		}
-
-		public void RegisterNotificationChannel(INotificationChannel channel)
-		{
-			_notificationChannels.Add(channel);
-		}
-
 	}
 }

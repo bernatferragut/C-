@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{682E087B-9CC8-481E-963B-05E33F467280}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces_3/FileLogger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces_3/Program.cs">
     <Files>
-      <File FileName="Interfaces_3/Program.cs" Line="13" Column="3" />
-      <File FileName="Interfaces_3/DbMigrator.cs" Line="20" Column="3" />
-      <File FileName="Interfaces_3/ILogger.cs" Line="8" Column="33" />
-      <File FileName="Interfaces_3/ConsoleLogger.cs" Line="18" Column="50" />
-      <File FileName="Interfaces_3/FileLogger.cs" Line="5" Column="2" />
+      <File FileName="Interfaces_3/Program.cs" Line="1" Column="1" />
+      <File FileName="Interfaces_3/DbMigrator.cs" Line="1" Column="1" />
+      <File FileName="Interfaces_3/ILogger.cs" Line="1" Column="1" />
+      <File FileName="Interfaces_3/ConsoleLogger.cs" Line="1" Column="1" />
+      <File FileName="Interfaces_3/FileLogger.cs" Line="10" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Interfaces_3" expanded="True">
             <Node name="Interfaces_3" expanded="True">
-              <Node name="FileLogger.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

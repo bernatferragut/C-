@@ -23,5 +23,10 @@ namespace Interfaces5
 
 		}
 
+		public void RegisterNotificationChannel(INotificationChannel channel)
+		{
+			_notificationChannels.Add(channel);
+		}
+
 	}
 }

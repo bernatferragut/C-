@@ -9,8 +9,10 @@ namespace Interfaces5
 	{
 		public static void Main(string[] args)
 		{
-			var encode = new VideoEncoder();
-			encode.Encode(new Video());
+			var encoder = new VideoEncoder();
+			encoder.RegisterNotificationChannel(new MailNotificationChannel());
+			encoder.RegisterNotificationChannel(new SmsNotificationchannel());
+			encoder.Encode(new Video());
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿namespace Exercices
 {
-	public class WorkFlow1 : IWorkflow
+	public class WorkFlow1 : ITask
 	{
 		public void Execute()
 		{

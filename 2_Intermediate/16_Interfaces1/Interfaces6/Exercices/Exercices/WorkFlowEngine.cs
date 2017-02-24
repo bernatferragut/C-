@@ -5,14 +5,14 @@ namespace Exercices
 {
 	public class WorkFlowEngine
 	{
-		private List<IWorkflow> _workFlowActivities;
+		private List<ITask> _workFlowActivities;
 
 		public WorkFlowEngine()
 		{
-			_workFlowActivities = new List<IWorkflow>();
+			_workFlowActivities = new List<ITask>();
 		}
 
-		public void RegisterActivities(IWorkflow activity)
+		public void RegisterActivities(ITask activity)
 		{
 			_workFlowActivities.Add(activity);
 		}

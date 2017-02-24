@@ -1,6 +1,6 @@
 namespace Exercices
 {
-	public interface IWorkflow
+	public interface ITask
 	{
 		void Execute();
 	}

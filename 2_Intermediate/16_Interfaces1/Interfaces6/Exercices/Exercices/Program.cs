@@ -7,7 +7,11 @@ namespace Exercices
 	{
 		public static void Main(string[] args)
 		{
-			// Console.WriteLine("Hello World!");
-		}
+			var workflowengine = new WorkFlowEngine();
+
+			workflowengine.workFlowActivities.Add(new WorkFlow1());
+			workflowengine.workFlowActivities.Add(new WorkFlow2());
+
+			workflowengine.Run();
 	}
 }

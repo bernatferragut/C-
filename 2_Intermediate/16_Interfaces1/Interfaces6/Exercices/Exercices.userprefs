@@ -2,10 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/WorkFlowEngine.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="12" Column="3" />
-      <File FileName="Exercices/WorkFlowEngine.cs" Line="1" Column="1" />
-      <File FileName="Exercices/IActivity.cs" Line="1" Column="1" />
-      <File FileName="Exercices/WorkFlow.cs" Line="2" Column="2" />
+      <File FileName="Exercices/Program.cs" Line="15" Column="23" />
+      <File FileName="Exercices/WorkFlowEngine.cs" Line="12" Column="52" />
+      <File FileName="Exercices/IActivity.cs" Line="6" Column="3" />
+      <File FileName="Exercices/WorkFlow.cs" Line="9" Column="3" />
+      <File FileName="Exercices/WorkFlow2.cs" Line="9" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

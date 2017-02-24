@@ -5,16 +5,17 @@ namespace Exercices
 {
 	public class WorkFlowEngine
 	{
-		public List<WorkFlow> workFlowActivities;
+		public List<IActivity> workFlowActivities;
 
 		public WorkFlowEngine()
 		{
-			var workFlowActivities = new List<WorkFlow>();
+			var _workFlowActivities = new List<IActivity>();
 		}
 
-		public void Run(List<WorkFlow>  workflowList)
+		public void Run(List<IActivity>  workflowList)
 		{
-			// Execute command
+			foreach (var activity in workFlowActivities)
+				activity.Execute();
 		}
 	}
 }

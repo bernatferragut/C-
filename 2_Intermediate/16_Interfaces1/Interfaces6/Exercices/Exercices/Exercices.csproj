@@ -37,6 +37,7 @@
     <Compile Include="WorkFlow.cs" />
     <Compile Include="IActivity.cs" />
     <Compile Include="WorkFlowEngine.cs" />
+    <Compile Include="WorkFlow2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

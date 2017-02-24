@@ -1,6 +1,6 @@
 namespace Exercices
 {
-	public class WorkFlow2 : IActivity
+	public class WorkFlow2 : IWorkflow
 	{
 		public void Execute()
 		{

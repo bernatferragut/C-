@@ -1,6 +1,6 @@
 namespace Exercices
 {
-	public interface IActivity
+	public interface IWorkflow
 	{
 		void Execute();
 	}

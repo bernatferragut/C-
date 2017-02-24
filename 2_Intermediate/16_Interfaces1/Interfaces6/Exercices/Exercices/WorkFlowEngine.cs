@@ -9,7 +9,7 @@ namespace Exercices
 
 		public WorkFlowEngine()
 		{
-			var _workFlowActivities = new List<IActivity>();
+			_workFlowActivities = new List<IActivity>();
 		}
 
 		public void RegisterActivities(IActivity activity)

@@ -5,16 +5,21 @@ namespace Exercices
 {
 	public class WorkFlowEngine
 	{
-		public List<IActivity> workFlowActivities;
+		private List<IActivity> _workFlowActivities;
 
 		public WorkFlowEngine()
 		{
 			var _workFlowActivities = new List<IActivity>();
 		}
 
-		public void Run(List<IActivity>  workflowList)
+		public void RegisterActivities(IActivity activity)
 		{
-			foreach (var activity in workFlowActivities)
+			_workFlowActivities.Add(activity);
+		}
+
+		public void Run()
+		{
+			foreach (var activity in _workFlowActivities)
 				activity.Execute();
 		}
 	}

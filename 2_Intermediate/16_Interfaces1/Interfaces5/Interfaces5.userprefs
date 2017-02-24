@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{E92D67A4-8F0F-423D-ABEE-5FBF6F2E1ECB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces5/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Interfaces5/VideoEncoder.cs">
     <Files>
       <File FileName="Interfaces5/Program.cs" Line="16" Column="4" />
-      <File FileName="Interfaces5/VideoEncoder.cs" Line="32" Column="1" />
+      <File FileName="Interfaces5/VideoEncoder.cs" Line="17" Column="2" />
       <File FileName="Interfaces5/INotificationChannel.cs" Line="6" Column="30" />
       <File FileName="Interfaces5/MailNotificationChannel.cs" Line="11" Column="3" />
       <File FileName="Interfaces5/SmsNotificationchannel.cs" Line="5" Column="60" />
@@ -12,7 +12,7 @@
         <State name="__root__">
           <Node name="Interfaces5" expanded="True">
             <Node name="Interfaces5" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="VideoEncoder.cs" selected="True" />
             </Node>
           </Node>
         </State>

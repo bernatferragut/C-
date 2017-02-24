@@ -2,12 +2,23 @@
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/WorkFlowEngine.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="15" Column="23" />
-      <File FileName="Exercices/WorkFlowEngine.cs" Line="12" Column="52" />
+      <File FileName="Exercices/Program.cs" Line="14" Column="4" />
+      <File FileName="Exercices/WorkFlowEngine.cs" Line="15" Column="3" />
       <File FileName="Exercices/IActivity.cs" Line="6" Column="3" />
-      <File FileName="Exercices/WorkFlow.cs" Line="9" Column="3" />
+      <File FileName="Exercices/WorkFlow.cs" Line="6" Column="4" />
       <File FileName="Exercices/WorkFlow2.cs" Line="9" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exercices" expanded="True">
+            <Node name="Exercices" expanded="True">
+              <Node name="WorkFlowEngine.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

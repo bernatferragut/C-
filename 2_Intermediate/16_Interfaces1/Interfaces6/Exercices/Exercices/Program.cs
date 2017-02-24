@@ -9,9 +9,10 @@ namespace Exercices
 		{
 			var workflowengine = new WorkFlowEngine();
 
-			workflowengine.workFlowActivities.Add(new WorkFlow1());
-			workflowengine.workFlowActivities.Add(new WorkFlow2());
+			workflowengine.RegisterActivities(new WorkFlow1());
+			workflowengine.RegisterActivities(new WorkFlow2());
 
 			workflowengine.Run();
+		}
 	}
 }

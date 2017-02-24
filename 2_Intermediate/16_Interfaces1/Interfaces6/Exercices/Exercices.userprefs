@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{8807A8B5-E27A-457E-94D1-25C0D52344D6}|Default">
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/WorkFlowEngine.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="9" Column="37" />
+      <File FileName="Exercices/Program.cs" Line="12" Column="3" />
+      <File FileName="Exercices/WorkFlowEngine.cs" Line="1" Column="1" />
+      <File FileName="Exercices/IActivity.cs" Line="1" Column="1" />
+      <File FileName="Exercices/WorkFlow.cs" Line="2" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

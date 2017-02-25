@@ -13,11 +13,32 @@ namespace Revisited
 
 	public interface ITask
 	{
+		void Execute();
+	}
+
+	public class Task1 : ITask
+	{
+		public void Execute()
+		{
+			Console.WriteLine("Task1 implementation");
+		}
+	}
+
+	public class Task2 : ITask
+	{
+		public void Execute()
+		{
+			Console.WriteLine("Task2 implementation");
+		}
+	}
+
+	public interface IWorkFlow
+	{
 		void Add(ITask task);
 		void Remove(ITask task);
 	}
 
-	public class Workflow : ITask
+	public class Workflow : IWorkFlow
 	{
 		private readonly List<ITask> _tasks;
 

@@ -1,24 +1,13 @@
 ﻿<Properties StartupConfiguration="{8807A8B5-E27A-457E-94D1-25C0D52344D6}|Default">
   <MonoDevelop.Ide.ItemProperties.Exercices PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/WorkFlowEngine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercices/Program.cs">
     <Files>
-      <File FileName="Exercices/Program.cs" Line="14" Column="4" />
-      <File FileName="Exercices/WorkFlowEngine.cs" Line="15" Column="3" />
+      <File FileName="Exercices/Program.cs" Line="15" Column="25" />
+      <File FileName="Exercices/WorkFlowEngine.cs" Line="19" Column="3" />
       <File FileName="Exercices/IActivity.cs" Line="6" Column="3" />
-      <File FileName="Exercices/WorkFlow.cs" Line="6" Column="4" />
-      <File FileName="Exercices/WorkFlow2.cs" Line="9" Column="3" />
+      <File FileName="Exercices/WorkFlow.cs" Line="7" Column="52" />
+      <File FileName="Exercices/WorkFlow2.cs" Line="3" Column="32" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Exercices" expanded="True">
-            <Node name="Exercices" expanded="True">
-              <Node name="WorkFlowEngine.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

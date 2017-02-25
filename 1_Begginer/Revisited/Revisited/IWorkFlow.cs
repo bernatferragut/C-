@@ -7,6 +7,6 @@ namespace Revisited
 	{
 		void Add(ITask task);
 		void Remove(ITask task);
+		IEnumerable<ITask> GetTasks();
 	}
-
 }

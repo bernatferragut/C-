@@ -7,11 +7,12 @@ namespace Revisited
 	{
 		public static void Main(string[] args)
 		{
-			var myWorkflow = new Workflow();
+			var workflow = new Workflow();
+			workflow.Add(new Task1());
+			workflow.Add(new Task2());
 
-			myWorkflow.Add(new Task1());
-			myWorkflow.Add(new Task2());
-			myWorkflow.Run();
+			var myWorkflowEngine = new WorflowEngine();
+			myWorkflowEngine.Run(workflow);
 		}
 	}
 }

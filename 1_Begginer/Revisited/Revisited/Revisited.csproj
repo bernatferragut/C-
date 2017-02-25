@@ -39,6 +39,7 @@
     <Compile Include="Task2.cs" />
     <Compile Include="IWorkFlow.cs" />
     <Compile Include="Workflow.cs" />
+    <Compile Include="WorflowEngine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,10 +22,9 @@ namespace Revisited
 			_tasks.Remove(task);
 		}
 
-		public void Run()
+		public IEnumerable<ITask> GetTasks() // *To avoid passing the List class and expose it we use IEnumerable*
 		{
-			foreach (var task in _tasks)
-				task.Execute();
+			return _tasks; // an interface that enumerates a List
 		}
 	}
 }

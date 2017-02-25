@@ -14,19 +14,18 @@ namespace Revisited
 
 		public void Add(ITask task) // Method 1 implementing Iworkflow
 		{
-			Console.WriteLine("Adding some Task");
+			_tasks.Add(task);
 		}
 
 		public void Remove(ITask task) // Method 2 implementing Iworkflow
 		{
-			Console.WriteLine("Removing some Task");
+			_tasks.Remove(task);
 		}
 
-		public void Run(ITask _tasks)
+		public void Run()
 		{
 			foreach (var task in _tasks)
 				task.Execute();
 		}
 	}
-
 }

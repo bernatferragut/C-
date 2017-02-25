@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace Revisited
 {
-
 	public class Task2 : ITask
 	{
 		public void Execute()
@@ -11,5 +10,4 @@ namespace Revisited
 			Console.WriteLine("Task2 implementation");
 		}
 	}
-
 }
